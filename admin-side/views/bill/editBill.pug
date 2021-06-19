@@ -1,0 +1,36 @@
+extends ../layouts/layout
+block contents
+    .col-12.grid-margin.stretch-card
+      .card
+        .card-body
+          h4.card-title= 'Bill' 
+          table.table.table-hover
+            thead
+                tr
+                    th Mã vé máy bay              
+                    th Hạng vé      
+                    th Số lượng
+                    th Giá          
+            tbody
+                each ticket in tickets
+                    tr
+                        td= ticket.code               
+                        td= ticket.ticket_class_id.name       
+                        td 1
+                        td= ticket.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})     
+
+    .col-3.grid-margin.stretch-card
+        .card
+            .card-body 
+                h3.card-title Tổng hóa đơn
+                hr
+                each bd in bill_detail
+                    .mb-4
+                        span= bd.ticket_id.code
+                        strong.float-right= bd.ticket_id.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})   
+                
+                hr
+                .mb-4
+                    span Tổng cộng
+                    strong.float-right= bill.total_payment.toLocaleString('vi', {style : 'currency', currency : 'VND'})    
+                

@@ -1,0 +1,113 @@
+extends ../layouts/layout
+block contents
+    .uk-container-expand
+      .impx-slide-container.style1
+        .impx-slideshow-fw.h-100
+          .h-100(data-uk-slideshow='autoplay: true; autoplay-interval: 6000; animation: fade; finite: false; min-height: 319; max-height: 980;')
+            .uk-position-relative.uk-visible-toggle.uk-light.h-100
+              ul.uk-slideshow-items.h-100
+                li
+                  // Slideshow Item #1
+                  .uk-position-cover.uk-animation-kenburns.uk-animation-reverse.uk-transform-origin-bottom-center
+                    img(src='https://wallpaperaccess.com/full/878615.jpg', alt='', data-uk-cover='height:319px')
+                    |                                     
+                    .uk-overlay-primary.uk-position-cover.impx-overlay.dark
+                  |                                 
+                  .uk-container.uk-position-relative.uk-height-1-1
+                    .row
+                      .col-lg-12
+                        #login.login
+                          p.text-center.title-login.mt-5 &Dstrok;&abreve;ng nh&#x1EAD;p
+                          |                                                 
+                          form(method='POST', action='/authentication/login')
+                            .mb-3
+                              label.form-label(for='exampleInputEmail1') Username
+                              |                                                         
+                              input#exampleInputEmail1.form-control(aria-describedby='emailHelp', name='username')
+                            |                                                     
+                            .mb-3
+                              label.form-label(for='exampleInputPassword1') M&#x1EAD;t kh&#x1EA9;u
+                              |                                                         
+                              input#exampleInputPassword1.form-control(type='password', name='password')
+                            |                                                     
+                            .mb-3
+                              if (error)
+                                p(style='font-size: 16px; text-transform: none;')
+                                  span.badge.bg-warning.text-dark= error
+                            .mb-3.form-check
+                              input#exampleCheck1.form-check-input(type='checkbox')
+                              |                                                         
+                              label.form-check-label(for='exampleCheck1') Ghi nh&#x1EDB; t&ocirc;i
+                            |                                                     
+                            button.btn.btn-danger(type='submit') &Dstrok;&abreve;ng nh&#x1EAD;p
+                          |                                                 
+                          .text-signup.my-3
+                            span.text-center B&#x1EA1;n ch&#x1B0;a c&oacute; t&agrave;i kho&#x1EA3;n?
+                            |                                                     
+                            a#a-sign-up(onclick='signUp()') &Dstrok;&abreve;ng k&yacute;
+                          |                                                 
+                          a.forgotten(href='#') Qu&ecirc;n m&#x1EAD;t kh&#x1EA9;u??
+                          |                                                 
+                          span.mt-3 Ho&#x1EB7;c
+                          |                                                 
+                          .social-network
+                            a(href='')
+                              i.fab.fa-facebook
+                        |                                             
+                        #signUp.signUp
+                          p.text-center.title-login.mt-5 &Dstrok;&abreve;ng k&yacute;
+                          |                                                 
+                          form(method='POST', action='/authentication/signUp')
+                            .form-group
+                              label.form-label(for='username') Username
+                              |                                                         
+                              input#username.form-control(type='text', aria-describedby='emailHelp', name='username')
+                            |                                                     
+                            .form-group
+                              label.form-label(for='name') T&ecirc;n
+                              |                                                         
+                              input#name.form-control(aria-describedby='emailHelp', name='name')
+                            |                                                     
+                            .form-group
+                              label.form-label(for='email') Email
+                              |                                                         
+                              input#email.form-control(type="email" aria-describedby='emailHelp', name='email')
+                            |                                                     
+                            .form-group
+                              label.form-label(for='phone') S&#x1ED1; &dstrok;i&#x1EC7;n tho&#x1EA1;i
+                              |                                                         
+                              input#phone.form-control(type='phone', aria-describedby='emailHelp', name='phone')
+                            |                                                     
+                            .form-group
+                              label.form-label(for='password') M&#x1EAD;t kh&#x1EA9;u
+                              |                                                         
+                              input#password.form-control(type='password', name='password')
+                            |                                                     
+                            .form-group
+                              label.form-label(for='passwordConfirm') X&aacute;c nh&#x1EAD;n m&#x1EAD;t kh&#x1EA9;u
+                              |                                                         
+                              input#passwordConfirm.form-control(type='password', name='confirmPassword')
+                            |                                                     
+                            .mb-2
+                              if (errorSignUp)
+                                p.text-danger(style='font-size: 16px; text-transform: none;')= errorSignUp
+                            button.btn.btn-danger(type='submit') &Dstrok;&abreve;ng k&yacute;
+                          |                                                 
+                          .text-signup.my-3
+                            span.text-center B&#x1EA1;n &dstrok;&atilde; c&oacute; t&agrave;i kho&#x1EA3;n?
+                            |                                                     
+                            a(onclick='login()') &Dstrok;&abreve;ng nh&#x1EAD;p
+                          |                                                 
+                          a.forgotten(href='#') Qu&ecirc;n m&#x1EAD;t kh&#x1EA9;u??
+                          |                                                 
+                          span.mt-3 Ho&#x1EB7;c
+                          |                                                 
+                          .social-network
+                            a(href='')
+                              i.fab.fa-facebook
+                            |                                                     
+                            a(href='')
+                              i.fab.fa-google
+                // Slideshow Item #1 End
+block script 
+    script(src="/js/main.js") 

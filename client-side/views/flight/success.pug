@@ -1,0 +1,14 @@
+extends ../layouts/layout
+block contents 
+    -var active_1= 'active'
+    -var active_2= 'active'
+    -var active_3= 'active'
+    -var active_4= 'active'
+
+    include ../layouts/components/process-bar
+
+    .container 
+        .row.d-flex.flex-column.justify-content-center.align-items-center.text-center
+            i(class="fal fa-check-circle text-success" style="font-size: 1000%")
+            .text-success(style="font-size: 20px") Bạn đã đặt vé thành công
+            a.btn.btn-outline-success.w-25.mt-3(href="/") Quay về trang chủ 

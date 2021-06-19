@@ -1,0 +1,47 @@
+extends ../layouts/layout
+block contents
+    .col-12.grid-margin.stretch-card
+      .card
+        .card-body
+          h4.card-title= 'Cancel' 
+          form.forms-sample(method="POST", action=`/bills/edit-cancel/${cancel._id}`)
+            .form-group
+              label.col-form-label(for='recipient-name')= `Ngày hủy vé: ${cancel.date_create}`
+            .form-group
+              label.col-form-label(for='economy_seatNum') Thông tin vé:
+              ul 
+                li= `Mã vé: ${cancel.ticket_id.code}` 
+                li= `Giá vé: ${cancel.ticket_id.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})   }` 
+            .form-group
+              label.col-form-label(for='economy_seatNum') Thông tin người hủy:
+              ul 
+                li= `Tên người đặt: ${cancel.customer_id.name}` 
+                li= `Email: ${cancel.customer_id.email}` 
+                li= `Số điện thoại: ${cancel.customer_id.phone}` 
+            .form-group
+                label.col-form-label(for='business_seatNum') Trạng thái hoàn tiền:
+                select.form-control(name="status")
+                    if (cancel.status === "Đã xử lý")
+                        option(value="Đã xử lý" selected) Đã xử lý
+                        option(value="Chưa xử lý") Chưa xử lý
+                    else
+                        option(value="Đã xử lý") Đã xử lý
+                        option(value="Chưa xử lý" selected) Chưa xử lý
+            
+            button(type="submit" class="btn btn-primary mr-2") Submit
+            button(class="btn btn-light") Cancel          
+
+    .col-3.grid-margin.stretch-card
+        .card
+            .card-body 
+                h3.card-title Tổng tiền cần hoàn trả
+                hr
+                .mb-4
+                    span= cancel.ticket_id.code
+                    strong.float-right= cancel.ticket_id.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})   
+                
+                hr
+                .mb-4
+                    span Tổng cộng
+                    strong.float-right= cancel.ticket_id.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})    
+                

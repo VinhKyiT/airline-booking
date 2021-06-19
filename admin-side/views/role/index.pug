@@ -1,0 +1,45 @@
+extends ../layouts/layout 
+block contents 
+    .row
+      .col-lg-12.grid-margin.stretch-card
+        .card
+          .card-body
+            h4.card-title Phân quyền
+            button.btn.btn-inverse-success.btn-icon(type="button" data-toggle="modal" data-target="#createCategory")
+                i.mdi.mdi-plus
+            #createCategory.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                .modal-dialog(role='document')
+                    .modal-content
+                        .modal-header
+                            h5#exampleModalLabel.modal-title New Role
+                            button.close(type='button', data-dismiss='modal', aria-label='Close')
+                                span(aria-hidden='true') &times;
+                        .modal-body
+                            form(method="POST" action="/roles/create")
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Tên phân quyền:
+                                    input#recipient-name.form-control(type='text' name="name")
+                                .modal-footer
+                                    button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+                                    button.btn.btn-primary(type='sumit') Submit                          
+            .table-responsive
+                table.table.table-striped
+                    thead
+                        tr
+                            th Tên phân quyền       
+                            th Số tài khoản     
+                            th
+                            th       
+                    tbody
+                        each role in roles
+                            tr
+                                td= role.name        
+                                td= role.account        
+                                td
+                                    a(href=`/roles/edit/${role._id}`)
+                                        button.btn.btn-inverse-primary.btn-icon(type='button')
+                                            i.mdi.mdi-pencil 
+                                td               
+                                    a(href=`/roles/delete/${role._id}`)
+                                        button.btn.btn-inverse-danger.btn-icon(type='button')
+                                            i.mdi.mdi-delete

@@ -1,0 +1,16 @@
+extends ../layouts/layout
+block contents 
+    .col-12.grid-margin.stretch-card
+      .card
+        .card-body
+          h4.card-title= `Edit ${airplane_company.name}`
+          form.forms-sample(method="POST", action=`/airplane-company/edit/${airplane_company._id}`)
+            .form-group
+              label(for='exampleInputName1') Mã hãng hàng không
+              input#exampleInputName1.form-control(type='text', placeholder='Tên công ty' name="name" value=airplane_company.code)
+            .form-group
+              label(for='exampleInputName1') Tên hãng hàng không
+              input#exampleInputName1.form-control(type='text', placeholder='Tên công ty' name="name" value=airplane_company.name)
+            
+            button(type="submit" class="btn btn-primary mr-2") Submit
+            button(class="btn btn-light") Cancel          

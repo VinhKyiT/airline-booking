@@ -1,0 +1,61 @@
+doctype html
+html(lang='en')
+  head
+    // Required meta tags
+    meta(charset='utf-8')
+    |   
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    |   
+    title Majestic Admin
+    // plugins:css
+    link(rel='stylesheet', href='/vendors/mdi/css/materialdesignicons.min.css')
+    |   
+    link(rel='stylesheet', href='/vendors/base/vendor.bundle.base.css')
+    // endinject
+    // plugin css for this page
+    link(rel='stylesheet', href='/vendors/datatables.net-bs4/dataTables.bootstrap4.css')
+    // End plugin css for this page
+    // inject:css
+    link(rel='stylesheet', href='/css/style.css')
+    // endinject
+    link(rel='shortcut icon', href='/images/favicon.png')
+
+    link(href='https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css', rel='stylesheet')
+  body
+    .container-scroller
+      include ./components/navbar
+      .container-fluid.page-body-wrapper
+        include ./components/sidebar
+        .main-panel
+          .content-wrapper
+            block contents
+        
+    // plugins:js
+    script(src='/vendors/base/vendor.bundle.base.js')
+    // endinject
+    // Plugin js for this page
+    script(src='/vendors/chart.js/Chart.min.js')
+    |   
+    script(src='/vendors/datatables.net/jquery.dataTables.js')
+    |   
+    script(src='/vendors/datatables.net-bs4/dataTables.bootstrap4.js')
+    // End plugin js for this page
+    // inject:js
+    script(src='/js/off-canvas.js')
+    |   
+    script(src='/js/hoverable-collapse.js')
+    |   
+    script(src='/js/template.js')
+    // endinject
+    // Custom js for this page
+    script(src='/js/dashboard.js')
+    |   
+    script(src='/js/data-table.js')
+    |   
+    script(src='/js/jquery.dataTables.js')
+    |   
+    script(src='/js/dataTables.bootstrap4.js')
+    script(src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js')
+    // End custom js for this page
+    script(src="/js/account.js") 
+    block script 

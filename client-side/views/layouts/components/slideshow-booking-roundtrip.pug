@@ -1,0 +1,286 @@
+-var active_1= 'active'
+-var active_2= ''
+-var active_3= ''
+-var active_4= ''
+include ./process-bar
+form(action=`/flights/booking/round-trip/${route._id}/${round_trip._id}` method="GET")
+  h1.text-center.text-primary Chuyến đi
+  .row
+    .booking-form-container
+      .row
+        .col-sm-3
+          .row.mb-2
+            .col-sm-12
+              .card
+                .card-body
+                  h5.card-title.text-center.text-primary= route.dTime
+                  |
+                  p.card-text.text-center= `${route.depart_airport_id.name} => ${route.arrival_airport_id.name}`
+                  p.card-text Mã chuyến bay:
+                    strong= route.code
+                  p.card-text Sân bay:
+                    strong= ` ${route.depart_airport_id.code} => ${route.arrival_airport_id.code}`
+                  p.card-text Ngày khởi hành:
+                    strong= route.dTime
+                  p.card-text Ngày đến nơi dự tính:
+                    strong= route.aTime
+          .row
+            .col-sm-12
+              .card.text-center
+                .card-body
+                  h5.card-title.text-primary Lịch trình chuyến đi
+                  |
+                  table.table
+                    thead
+                      tr
+                        th Sân bay đi
+                        th Sân bay đến
+                        th Mã máy bay
+                    tbody
+                      each rd in route_detail
+                        tr
+                          td= rd.depart_airport_id.code
+                          td= rd.arrival_airport_id.code
+                          td= rd.airplane_id.name
+        .col-sm-3
+          .card
+            .card-body
+              h5.card-title.text-center.text-primary Sơ đồ ghế
+              |
+              .ticket-container.mb-5
+                .row
+                  .col-lg-12
+                    .ticket-item
+                      h6.text-center.card-title Vé hạng phổ thông
+                      .container
+                        .row
+                          each et in economy_ticket
+                            if (et.status === "Vẫn còn")
+                              .col-lg-1
+                                .seat-item.availabled
+                                  input.w-100.h-100.seat-input(type="checkbox" name="ticket_id" value=et._id)
+                            if (et.status === "Đã đặt")
+                              .col-lg-1
+                                .seat-item.disabled
+                        .row.description-container
+                          .col-lg-12
+                            .float-right
+                              .description
+                                .des-item
+                                  .seat-item.availabled
+                                  span Còn Vé
+                                .des-item
+                                  .seat-item.disabled
+                                  span Đã đặt
+                                .des-item
+                                  .seat-item.selected
+                                  span Đang chọn
+        .col-sm-3
+          .card
+            .card-body
+              h5.card-title.text-center.text-primary Sơ đồ ghế
+              |
+              .ticket-container.mb-5
+                .row
+                  .col-lg-12
+                    .ticket-item
+                      h6.text-center.card-title Vé hạng phổ thông đặc biệt
+                      .container
+                        .row
+                          each pt in premium_ticket
+                            if (pt.status === "Vẫn còn")
+                              .col-lg-1
+                                .seat-item.availabled
+                                  input.w-100.h-100.seat-input(type="checkbox" name="ticket_id" value=pt._id)
+                            if (pt.status === "Đã đặt")
+                              .col-lg-1
+                                .seat-item.disabled
+                        .row.description-container
+                          .col-lg-12
+                            .float-right
+                              .description
+                                .des-item
+                                  .seat-item.availabled
+                                  span Còn Vé
+                                .des-item
+                                  .seat-item.disabled
+                                  span Đã đặt
+                                .des-item
+                                  .seat-item.selected
+                                  span Đang chọn
+        .col-sm-3
+          .card
+            .card-body
+              h5.card-title.text-center.text-primary Sơ đồ ghế
+              |
+              .ticket-container.mb-5
+                .row
+                  .col-lg-12
+                    .ticket-item
+                      h6.text-center.card-title Vé hạng thương gia
+                      .container
+                        .row
+                          each bt in business_ticket
+                            if (bt.status === "Vẫn còn")
+                              .col-lg-1
+                                .seat-item.availabled
+                                  input.w-100.h-100.seat-input(type="checkbox" name="ticket_id" value=bt._id)
+                            if (bt.status === "Đã đặt")
+                              .col-lg-1
+                                .seat-item.disabled
+                        .row.description-container
+                          .col-lg-12
+                            .float-right
+                              .description
+                                .des-item
+                                  .seat-item.availabled
+                                  span Còn Vé
+                                .des-item
+                                  .seat-item.disabled
+                                  span Đã đặt
+                                .des-item
+                                  .seat-item.selected
+                                  span Đang chọn
+  h1.text-center.text-primary Chuyến về
+  .row
+    .booking-form-container
+      .row
+        .col-sm-3
+          .row.mb-2
+            .col-sm-12
+              .card
+                .card-body
+                  h5.card-title.text-center.text-primary= round_trip.dTime
+                  |
+                  p.card-text.text-center= `${round_trip.depart_airport_id.name} => ${round_trip.arrival_airport_id.name}`
+                  p.card-text Mã chuyến bay:
+                    strong= round_trip.code
+                  p.card-text Sân bay:
+                    strong= ` ${round_trip.depart_airport_id.code} => ${round_trip.arrival_airport_id.code}`
+                  p.card-text Ngày khởi hành:
+                    strong= round_trip.dTime
+                  p.card-text Ngày đến nơi dự tính:
+                    strong= round_trip.aTime
+          .row
+            .col-sm-12
+              .card.text-center
+                .card-body
+                  h5.card-title.text-primary Lịch trình chuyến đi
+                  |
+                  table.table
+                    thead
+                      tr
+                        th Sân bay đi
+                        th Sân bay đến
+                        th Mã máy bay
+                    tbody
+                      each rd in route_detail_2
+                        tr
+                          td= rd.depart_airport_id.code
+                          td= rd.arrival_airport_id.code
+                          td= rd.airplane_id.name
+        .col-sm-3
+          .card
+            .card-body
+              h5.card-title.text-center.text-primary Sơ đồ ghế
+              |
+              .ticket-container.mb-5
+                .row
+                  .col-lg-12
+                    .ticket-item
+                      h6.text-center.card-title Vé hạng phổ thông
+                      .container
+                        .row
+                          each et in economy_ticket_2
+                            if (et.status === "Vẫn còn")
+                              .col-lg-1
+                                .seat-item.availabled
+                                  input.w-100.h-100.seat-input(type="checkbox" name="ticket_id_2" value=et._id)
+                            if (et.status === "Đã đặt")
+                              .col-lg-1
+                                .seat-item.disabled
+                        .row.description-container
+                          .col-lg-12
+                            .float-right
+                              .description
+                                .des-item
+                                  .seat-item.availabled
+                                  span Còn Vé
+                                .des-item
+                                  .seat-item.disabled
+                                  span Đã đặt
+                                .des-item
+                                  .seat-item.selected
+                                  span Đang chọn
+        .col-sm-3
+          .card
+            .card-body
+              h5.card-title.text-center.text-primary Sơ đồ ghế
+              |
+              .ticket-container.mb-5
+                .row
+                  .col-lg-12
+                    .ticket-item
+                      h6.text-center.card-title Vé hạng phổ thông đặc biệt
+                      .container
+                        .row
+                          each pt in premium_ticket_2
+                            if (pt.status === "Vẫn còn")
+                              .col-lg-1
+                                .seat-item.availabled
+                                  input.w-100.h-100.seat-input(type="checkbox" name="ticket_id_2" value=pt._id)
+                            if (pt.status === "Đã đặt")
+                              .col-lg-1
+                                .seat-item.disabled
+                        .row.description-container
+                          .col-lg-12
+                            .float-right
+                              .description
+                                .des-item
+                                  .seat-item.availabled
+                                  span Còn Vé
+                                .des-item
+                                  .seat-item.disabled
+                                  span Đã đặt
+                                .des-item
+                                  .seat-item.selected
+                                  span Đang chọn
+        .col-sm-3
+          .card
+            .card-body
+              h5.card-title.text-center.text-primary Sơ đồ ghế
+              |
+              .ticket-container.mb-5
+                .row
+                  .col-lg-12
+                    .ticket-item
+                      h6.text-center.card-title Vé hạng thương gia
+                      .container
+                        .row
+                          each bt in business_ticket_2
+                            if (bt.status === "Vẫn còn")
+                              .col-lg-1
+                                .seat-item.availabled
+                                  input.w-100.h-100.seat-input(type="checkbox" name="ticket_id_2" value=bt._id)
+                            if (bt.status === "Đã đặt")
+                              .col-lg-1
+                                .seat-item.disabled
+                        .row.description-container
+                          .col-lg-12
+                            .float-right
+                              .description
+                                .des-item
+                                  .seat-item.availabled
+                                  span Còn Vé
+                                .des-item
+                                  .seat-item.disabled
+                                  span Đã đặt
+                                .des-item
+                                  .seat-item.selected
+                                  span Đang chọn
+  .group-form
+      button.btn.btn-outline-success(type="submit") Tiếp tục
+        i(class="fal fa-chevron-double-right")
+if (flash)
+  each message in flash
+    .alert.w-25.ms-5(role='alert' class=`alert-${message.type}`)= message.message

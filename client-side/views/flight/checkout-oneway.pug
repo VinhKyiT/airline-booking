@@ -1,0 +1,84 @@
+extends ../layouts/layout
+block contents 
+    -var active_1= 'active'
+    -var active_2= 'active'
+    -var active_3= ''
+    -var active_4= ''
+    -var totalPrice = (eco.count * eco.price) + (pre.count * pre.price) + (bus.count * bus.price)
+
+    include ../layouts/components/process-bar
+    form(action=`/flights/booking/one-way/`+route._id method="POST")
+        .container
+            .row
+                .booking-form-container
+                    .row
+                        .col-sm-6
+                            .row.mb-2
+                                .col-sm-12
+                                    .card
+                                        .card-body
+                                            h5.card-title.text-center.text-primary= route.dTime
+                                            |
+                                            p.card-text.text-center= `${route.depart_airport_id.name} => ${route.arrival_airport_id.name}`
+                                            p.card-text Mã chuyến bay:
+                                                strong= route.code
+                                            p.card-text Sân bay:
+                                                strong= ` ${route.depart_airport_id.code} => ${route.arrival_airport_id.code}`
+                                            p.card-text Ngày khởi hành:
+                                                strong= route.dTime
+                                            p.card-text Ngày đến nơi dự tính:
+                                                strong= route.aTime
+                        .col-sm-6
+                            .row.mb-2
+                                .col-sm-12
+                                    .card
+                                        .card-body
+                                            h5.card-title.text-center.text-primary  Thông tin vé
+                                            hr
+                                            if (tickets.length !== 0)
+                                                p.card-text Mã vé: 
+                                                    each t in tickets
+                                                        if (tickets.indexOf(t) !== (tickets.length -1))
+                                                            strong= t.code + ", "
+                                                        else 
+                                                            strong= t.code
+
+                                            else
+                                                p.card-text Mã vé: 
+                                                    strong= ticket.code
+                                            hr
+                                            table.table
+                                                if (tickets.length === 0)
+                                                    tr 
+                                                        td= `Vé ${ticket.ticket_class_id.name.toLowerCase()}`
+                                                        td x1
+                                                        td.text-end= ticket.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+                                                else 
+                                                    if (eco.count > 0)
+                                                        tr 
+                                                            td Vé hạng phổ thông
+                                                            td= `x${eco.count}`
+                                                            td.text-end= eco.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+                                                    if (pre.count > 0)
+                                                        tr 
+                                                            td Vé hạng phổ thông đặc biệt
+                                                            td= `x${pre.count}`
+                                                            td.text-end= pre.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+                                                    if (bus.count > 0)
+                                                        tr 
+                                                            td Vé hạng thương gia
+                                                            td= `x${bus.count}`
+                                                            td.text-end= bus.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+                                            span.card-text Tổng cộng:
+                                            strong.float-right= totalPrice.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+            .row
+                .col-lg-6
+                    a.btn.btn-outline-primary(href=`/flights/booking/one-way?route_id=${route._id}`) Quay lại
+                .col-lg-6
+                    if (tickets.length > 0)
+                        each t in tickets 
+                            input(type="hidden" name="ticket_id" value=t._id)
+                    else 
+                        input(type="hidden" name="ticket_id" value=ticket._id)
+                    input(type="hidden" name="total_price" value=totalPrice)
+                    button.float-right.btn.btn-outline-success(type="submit") Tiếp tục

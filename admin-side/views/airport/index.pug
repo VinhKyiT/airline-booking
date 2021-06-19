@@ -1,0 +1,48 @@
+extends ../layouts/layout 
+block contents 
+    .row
+      .col-lg-12.grid-margin.stretch-card
+        .card
+          .card-body
+            h4.card-title Sân bay
+            button.btn.btn-inverse-success.btn-icon(type="button" data-toggle="modal" data-target="#createCategory")
+                i.mdi.mdi-plus
+            #createCategory.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                .modal-dialog(role='document')
+                    .modal-content
+                        .modal-header
+                            h5#exampleModalLabel.modal-title New Airport
+                            button.close(type='button', data-dismiss='modal', aria-label='Close')
+                                span(aria-hidden='true') &times;
+                        .modal-body
+                            form(method="POST" action="/airports/create")
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Mã sân bay:
+                                    input#recipient-name.form-control(type='text' name="code")
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Tên sân bay:
+                                    input#recipient-name.form-control(type='text' name="name")
+                                .modal-footer
+                                    button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+                                    button.btn.btn-primary(type='sumit') Submit                          
+            .table-responsive
+                table.table.table-striped
+                    thead
+                        tr
+                            th Mã sân bay
+                            th Tên sân bay       
+                            th
+                            th       
+                    tbody
+                        each airport in airports
+                            tr
+                                td= airport.code        
+                                td= airport.name        
+                                td
+                                    a(href=`/airports/edit/${airport._id}`)
+                                        button.btn.btn-inverse-primary.btn-icon(type='button')
+                                            i.mdi.mdi-pencil 
+                                td               
+                                    a(href=`/airports/delete/${airport._id}`)
+                                        button.btn.btn-inverse-danger.btn-icon(type='button')
+                                            i.mdi.mdi-delete

@@ -1,0 +1,36 @@
+extends ../layouts/layout
+block contents 
+    .col-12.grid-margin.stretch-card
+      .card
+        .card-body
+          h4.card-title= `Edit ${customer.name}`
+          form.forms-sample(method="POST", action=`/customers/edit/${customer._id}`)
+            .form-group
+              label(for='exampleInputName1') Username
+              input#exampleInputName1.form-control(type='text', placeholder='Tên sân bay' name="username" value=customer.username)
+            .form-group
+              label(for='exampleInputName1') Tên khách hàng
+              input#exampleInputName1.form-control(type='text', placeholder='Tên sân bay' name="name" value=customer.name)
+            .form-group
+              label(for='exampleInputName1') Email
+              input#exampleInputName1.form-control(type='email', placeholder='Tên sân bay' name="email" value=customer.email)
+            .form-group
+              label(for='exampleInputName1') Ngày sinh
+              .d-flex.align-items-center
+                input#input-date.form-control.w-25(type='date', placeholder='Tên sân bay' name="date_of_birth" value=customer.date_of_birth disabled)
+                a(href="#")
+                 i.fal.fa-edit.ml-3#btn-edit(style="font-size: 25px;" onclick="myFunction()")
+            .form-group
+              label(for='exampleInputName1') Số điện thoại
+              input#exampleInputName1.form-control(type='text', placeholder='Tên sân bay' name="phone" value=customer.phone)
+            .form-group
+              label(for='exampleInputName1') Giới tính
+              input#exampleInputName1.form-control(type='text', placeholder='Tên sân bay' name="gender" value=customer.gender)
+            
+            button(type="submit" class="btn btn-primary mr-2") Submit
+            button(class="btn btn-light") Cancel          
+block script 
+  script.
+    var myFunction = function(){
+    document.getElementById('input-date').disabled = false
+    }

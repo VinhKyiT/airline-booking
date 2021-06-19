@@ -1,0 +1,161 @@
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  input,
+  button,
+  textarea,
+  select {
+    font-family: var(--font);
+    font-size: 1.4rem;
+    font-weight: 300;
+    outline: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+          .signup {
+            padding: 40px 20px;
+            background-color: white;
+            border-radius: 30px;
+            width: 100%;
+          }
+          .signup-heading {
+            text-align: center;
+            font-weight: 600;
+            color: #363a40;
+            font-size: 35px;
+            margin-bottom: 35px;
+          }
+          .signup-google {
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            width: 100%;
+            border-radius: 16px;
+            background-color: #4c6ef4;
+            text-decoration: none;
+            padding: 8px;
+            margin-bottom: 45px;
+            box-shadow: 0 10px 20px -5px rgba(76, 110, 244, 0.9);
+          }
+          .signup-google-icon {
+            width: 50px;
+            height: 50px;
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            color: #ff7870;
+            border-radius: 10px;
+            background-color: white;
+            font-size: 25px;
+          }
+          .signup-google-text {
+            color: white;
+            font-weight: 500;
+            display: block;
+            margin: 0 auto;
+          }
+          .signup-or {
+            color: #363a40;
+            display: block;
+            text-align: center;
+            position: relative;
+            margin-bottom: 55px;
+          }
+          .signup-or-text {
+            display: inline-block;
+            padding: 5px 20px;
+            background-color: white;
+            position: relative;
+            font-size: 14px;
+          }
+          .signup-or:before {
+            content: "";
+            height: 1px;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            background-color: #999;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+          }
+          .signup-already {
+            text-align: center;
+            color: #363a40;
+            font-size: 13px;
+          }
+          .signup-already-link {
+            color: #4c6ef4;
+            text-decoration: none;
+          }
+
+          .form-group {
+            margin-bottom: 25px;
+          }
+
+          .form-label {
+            display: inline-block;
+            cursor: pointer;
+            color: #363a40;
+            margin-bottom: 15px;
+            font-size: 13px;
+          }
+
+          .form-input {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            border-radius: 15px;
+            border: 0;
+            outline: none;
+            font-family: "Poppins", sans-serif;
+            background-color: #f2f3f5;
+            color: #363a40;
+            font-size: 16px;
+          }
+          .form-input::-webkit-input-placeholder {
+            color: #b4bdc1;
+          }
+
+          .form-submit {
+            display: block;
+            margin-top: 45px;
+            width: 100%;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            border: 0;
+            border-radius: 15px;
+            background-color: #81c91d;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 20px -5px rgba(129, 201, 29, 0.9);
+            outline: none;
+          }
+
+          @media screen and (max-width: 767px) {
+            .signup {
+              padding: 30px 20px;
+            }
+          }

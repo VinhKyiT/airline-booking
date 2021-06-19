@@ -1,0 +1,137 @@
+extends ../layouts/layout
+block contents 
+    .col-12.grid-margin.stretch-card
+      .card
+        .card-body
+          h4.card-title= `Edit ${route.code}`
+          form.forms-sample.mb-5(method="POST", action=`/routes/edit/${route._id}`)
+            .form-group
+              label(for='exampleInputName1') Mã chuyến bay
+              input#exampleInputName1.form-control(type='text', placeholder='Tên sân bay' name="name" value=route.code disabled)
+            .form-group
+              label(for='exampleInputName1') Ngày khởi hành
+              input#exampleInputName1.form-control(type='text', placeholder='Tên sân bay' name="name" value=route.dTime disabled)
+            .form-group
+              label(for='exampleInputName1') Ngày đến
+              input#exampleInputName1.form-control(type='text', placeholder='Tên sân bay' name="name" value=route.aTime disabled)     
+            .form-group
+              label(for='exampleInputName1') Tình trạng bay
+              select.form-control(type='text' name="status_id")   
+                each s in status
+                  if (s._id.equals(route.status_id)) 
+                    option(value=s._id selected)= s.name 
+                  else 
+                    option(value=s._id)= s.name 
+
+            .float-right 
+              button.btn.btn-primary(type="submit") Cập nhật
+          h4.card-title= `Hành trình chuyến bay`
+          if (error)
+            div(class="alert alert-danger w-25" role="alert")= error
+          button.btn.btn-inverse-success.btn-icon(type="button" data-toggle="modal" data-target="#create")
+            i.mdi.mdi-plus
+          #create.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+            .modal-dialog(role='document')
+              .modal-content
+                .modal-header
+                  h5#exampleModalLabel.modal-title Thêm trạm dừng
+                  button.close(type='button', data-dismiss='modal', aria-label='Close')
+                      span(aria-hidden='true') &times;
+                .modal-body
+                  form(method="POST" action=`/routes/add-station/${route._id}`)
+                    .form-group
+                      label.col-form-label(for='recipient-name') Trạm dừng:
+                      select.form-control(name="new_airport")
+                          each airport in airports
+                              option(value=airport._id)= airport.name 
+                    .form-group
+                      label.col-form-label(for='recipient-name') Máy bay:
+                      select.form-control(name="airplane_id")
+                          each airplane in airplanes
+                              option(value=airplane._id)= airplane.name 
+                    .modal-footer
+                      button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+                      button.btn.btn-primary(type='sumit') Submit
+          .table-responsive.mb-3
+            table.table.table-striped
+              thead 
+                tr 
+                  th Sân bay đi       
+                  th Sân bay đến 
+                  th Tên máy bay
+              tbody
+                each rd in rDetail  
+                  tr 
+                    td= rd.depart_airport
+                    td= rd.arrival_airport 
+                    td= rd.plane 
+          .ticket-container.mb-5 
+            .row
+              .col-lg-4
+                .ticket-item
+                  h4.text-center.card-title Vé hạng phổ thông
+                  .container
+                    .row
+                      each et in economy_ticket 
+                        if (et.status === "Vẫn còn")
+                          .col-lg-1
+                            .seat-item.availabled
+                        if (et.status === "Đã đặt")
+                          .col-lg-1
+                            .seat-item.disabled
+                    .row.description-container  
+                      .col-lg-12
+                        .float-right 
+                          .description
+                            .des-item 
+                              .seat-item.availabled 
+                              span Còn Vé
+                            .des-item 
+                              .seat-item.disabled 
+                              span Đã đặt
+              .col-lg-4
+                .ticket-item
+                  h4.text-center.card-title Vé hạng phổ thông đặc biệt
+                  .container
+                    .row 
+                      each pt in premium_ticket 
+                        if (pt.status === "Vẫn còn")
+                          .col-lg-1
+                            .seat-item.availabled
+                        if (pt.status === "Đã đặt")
+                          .col-lg-1
+                            .seat-item.disabled
+                    .row.description-container 
+                      .col-lg-12
+                        .float-right 
+                          .description
+                            .des-item 
+                              .seat-item.availabled 
+                              span Còn Vé
+                            .des-item 
+                              .seat-item.disabled 
+                              span Đã đặt
+              .col-lg-4
+                .ticket-item
+                  h4.text-center.card-title Vé hạng thương gia
+                  .container
+                    .row 
+                      each bt in business_ticket 
+                        if (bt.status === "Vẫn còn")
+                          .col-lg-1
+                            .seat-item.availabled
+                        if (bt.status === "Đã đặt")
+                          .col-lg-1
+                            .seat-item.disabled
+                    .row.description-container 
+                      .col-lg-12
+                        .float-right 
+                          .description
+                            .des-item 
+                              .seat-item.availabled 
+                              span Còn Vé
+                            .des-item 
+                              .seat-item.disabled 
+                              span Đã đặt
+          a(href="/routes") 
+            i.fal.fa-chevron-double-left &nbsp; Trở về trang chuyến bay

@@ -1,0 +1,65 @@
+extends ../layouts/layout 
+block contents 
+    .row
+      .col-lg-12.grid-margin.stretch-card
+        .card
+          .card-body
+            h4.card-title Máy bay
+            button.btn.btn-inverse-success.btn-icon(type="button" data-toggle="modal" data-target="#createCategory")
+                i.mdi.mdi-plus
+            #createCategory.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                .modal-dialog(role='document')
+                    .modal-content
+                        .modal-header
+                            h5#exampleModalLabel.modal-title New Airplane
+                            button.close(type='button', data-dismiss='modal', aria-label='Close')
+                                span(aria-hidden='true') &times;
+                        .modal-body
+                            form(method="POST" action="/airplanes/create")
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Tên máy bay:
+                                    input#recipient-name.form-control(type='text' name="name")
+                                .form-group
+                                    label.col-form-label(for='economy_seatNum') Số chỗ ngồi phổ thông:
+                                    input#economy_seatNum.form-control(type='number' name="economy_seatNum")
+                                .form-group
+                                    label.col-form-label(for='premium_economy_seatNum') Số chỗ ngồi phổ thông đặc biệt:
+                                    input#economy_seatNum.form-control(type='number' name="premium_economy_seatNum")
+                                .form-group
+                                    label.col-form-label(for='business_seatNum') Số chỗ ngồi thương gia:
+                                    input#business_seatNum.form-control(type='number' name="business_seatNum")
+                                .form-group
+                                    label.col-form-label(for='business_seatNum') Công ty máy bay:
+                                    select.form-control(name="airplane_company_id")
+                                        each company in airplane_company
+                                            option(value=company._id)= company.name 
+                                .modal-footer
+                                    button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+                                    button.btn.btn-primary(type='sumit') Submit                          
+            .table-responsive
+                table.table.table-striped
+                    thead
+                        tr
+                            th Tên máy bay      
+                            th Tên công ty 
+                            th Số chỗ ngồi phổ thông 
+                            th Số chỗ ngồi phổ thông đặc biệt
+                            th Số chỗ người thương gia 
+                            th
+                            th       
+                    tbody
+                        each airplane in airplanes
+                            tr
+                                td= airplane.name        
+                                td= airplane.company        
+                                td= airplane.economy_seatNum        
+                                td= airplane.premium_economy_seatNum        
+                                td= airplane.business_seatNum        
+                                td
+                                    a(href=`/airplanes/edit/${airplane._id}`)
+                                        button.btn.btn-inverse-primary.btn-icon(type='button')
+                                            i.mdi.mdi-pencil 
+                                td               
+                                    a(href=`/airplanes/delete/${airplane._id}`)
+                                        button.btn.btn-inverse-danger.btn-icon(type='button')
+                                            i.mdi.mdi-delete

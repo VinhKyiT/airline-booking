@@ -1,0 +1,38 @@
+extends ../layouts/layout
+block contents
+    // SLIDESHOW
+    //include ../layouts/components/slideshow
+    include ./home-slider
+    // SLIDESHOW END
+    // BOOKING FORM
+    include ../layouts/components/booking-form
+    // BOOKING FORM END
+    // SERVICES
+    //include ../layouts/components/service
+    // SERVICES END
+    // WHY CHOOSE US?
+    include ../layouts/components/why-choose-us
+    // WHY CHOOSE US? END
+    // ROOMS LIST
+    //include ../layouts/components/room-list
+    // ROOMS LIST END
+    // PRICING PLANS
+    include ../layouts/components/pricing-plan
+    // PRICING PLANS END
+    // TESTIMONIALS CAROUSEL
+    //include ../layouts/components/testimonials
+    // TESTIMONIALS CAROUSEL END
+    // CONTACT SECTION
+    include ../layouts/components/contact
+    // CONTACT SECTION END
+block script
+    script.
+        function changeType(select){
+        if(select.value === "one-way"){
+        document.getElementById('arrival_time').disabled = true;
+        }else{
+        document.getElementById('arrival_time').disabled = false;
+        }
+        }
+        var select = document.getElementById('form-type-select')
+        changeType(select)

@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "60c1cb2b8b8f112a787d0064"
+  },
+  "password": "250cf8b51c773f3f8dc8b4be867a9a02",
+  "username": "baothy",
+  "name": "Trình Hồng Bảo Thy",
+  "email": "baothy2207@gmail.com",
+  "date_of_birth": {
+    "$date": "2021-06-10T00:00:00Z"
+  },
+  "phone": "0392717201",
+  "gender": "Nữ",
+  "role_id": "60c1a14058327d22e807e513",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c9af353e2dae41bcf58e04"
+  },
+  "password": "202cb962ac59075b964b07152d234b70",
+  "username": "dobadov3",
+  "name": "Nguyễn Duy Anh",
+  "email": "dobadov3@gmail.com",
+  "date_of_birth": {
+    "$date": "2021-06-10T00:00:00Z"
+  },
+  "phone": "0944609933",
+  "gender": "Nam",
+  "role_id": "60c1a13b58327d22e807e512",
+  "__v": 0
+}]

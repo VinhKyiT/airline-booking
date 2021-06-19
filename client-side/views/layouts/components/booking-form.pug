@@ -1,0 +1,47 @@
+html
+  head
+  body
+    .impx-content.impx-services.style2.bg-color-aqua.pattern-1
+      .uk-container
+        .uk-margin-medium-bottom.impx-margin-bottom-small(data-uk-grid='')
+          .uk-flex.uk-flex-center(data-uk-grid='')
+            .uk-width-1-1
+              .impx-hp-booking-form.hp2
+                h6.uk-heading-line.uk-text-center.impx-text-white.uk-margin-bottom.uk-text-uppercase
+                  span Booking Form
+                form.uk-grid-margin-small(class='uk-child-width-1-6@xl uk-child-width-1-6@l uk-child-width-1-6@m uk-child-width-1-3@s', data-uk-grid='' method="GET" action="/flights/search" name="myForm")
+
+                  .uk-form-controls.uk-position-relative
+                    label.uk-form-label(for='form-guest-select') Sân bay đi
+                    span.uk-form-icon.select-icon(data-uk-icon='icon: users')
+                    select#form-depart-select.uk-select.uk-border-rounded(name="depart_airport_id" required)
+                      option(value='') Please select...
+                      each airport in airports
+                        option(value=airport._id)= `${airport.name}`
+                  .uk-form-controls.uk-position-relative
+                    label.uk-form-label(for='form-guest-select') Sân bay đến
+                    span.uk-form-icon.select-icon(data-uk-icon='icon: users')
+                    select#form-arrival-select.uk-select.uk-border-rounded(name="arrival_airport_id" required)
+                      option(value='') Please select...
+                      each airport in airports
+                        option(value=airport._id)= `${airport.name}`
+                  .uk-form-controls
+                    .uk-inline
+                      label.uk-form-label Ngày đi
+                      span.uk-form-icon(data-uk-icon='icon: calendar')
+                      input.uk-input.booking-arrival.uk-border-rounded(type='text', placeholder='m/dd/yyyy' name="depart_time" required)
+                  .uk-form-controls
+                    .uk-inline
+                      label.uk-form-label Ngày về
+                      span.uk-form-icon(data-uk-icon='icon: calendar')
+                      input.uk-input.booking-departure.uk-border-rounded#arrival_time(type='text', placeholder='m/dd/yyyy' name="arrival_time" required)
+                  .uk-form-controls.uk-position-relative
+                    label.uk-form-label(for='form-guest-select') Loại vé
+                    span.uk-form-icon.select-icon(data-uk-icon='icon: users')
+                    select#form-type-select.uk-select.uk-border-rounded(onchange="changeType(this)" name="type_route")
+                      option(value='one-way' selected) Một chiều
+                      option(value='round-trip') Khứ hồi
+
+                  div
+                    label.uk-form-label.empty-label &nbsp;
+                    button.uk-button.uk-width-1-1 Book Now!

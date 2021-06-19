@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "60c2df2f45df2a3f1cdc98e2"
+  },
+  "depart_airport_id": "60c0f585bbbab253a045c078",
+  "arrival_airport_id": "60c0f5eabbbab253a045c082",
+  "airplane_id": "60c0f8d6f9e9d24660791b2f",
+  "route_id": "60c2df2f45df2a3f1cdc98e1",
+  "status_id": "60c0cba0be52bd3818353855",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c35a90d1adfe500ccfe88c"
+  },
+  "depart_airport_id": "60c0f5eabbbab253a045c082",
+  "arrival_airport_id": "60c0f553bbbab253a045c073",
+  "airplane_id": "60c0f8d6f9e9d24660791b2f",
+  "route_id": "60c35a90d1adfe500ccfe88b",
+  "status_id": "60c0cba0be52bd3818353855",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c36129d1adfe500ccfe9a0"
+  },
+  "depart_airport_id": "60c0f5eabbbab253a045c082",
+  "arrival_airport_id": "60c0f5f3bbbab253a045c083",
+  "airplane_id": "60c0f8fbf9e9d24660791b30",
+  "route_id": "60c36129d1adfe500ccfe99f",
+  "status_id": "60c0cba0be52bd3818353855",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c37befd1adfe500ccfead3"
+  },
+  "depart_airport_id": "60c0f5eabbbab253a045c082",
+  "arrival_airport_id": "60c0f55dbbbab253a045c074",
+  "airplane_id": "60c0f9d3f9e9d24660791b33",
+  "route_id": "60c37befd1adfe500ccfead2",
+  "status_id": "60c0cba0be52bd3818353855",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5ba07dcea793898294ff0"
+  },
+  "depart_airport_id": "60c0f553bbbab253a045c073",
+  "arrival_airport_id": "60c0f585bbbab253a045c078",
+  "airplane_id": "60c0f8d6f9e9d24660791b2f",
+  "route_id": "60c2df2f45df2a3f1cdc98e1",
+  "status_id": "60c0cba0be52bd3818353855",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801691f"
+  },
+  "depart_airport_id": "60c0f553bbbab253a045c073",
+  "arrival_airport_id": "60c0f5eabbbab253a045c082",
+  "airplane_id": "60c0f8d6f9e9d24660791b2f",
+  "route_id": "60c5f33b0ac91911b801691e",
+  "status_id": "60c0cba0be52bd3818353855",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045277a"
+  },
+  "depart_airport_id": "60c0f5eabbbab253a045c082",
+  "arrival_airport_id": "60c0f553bbbab253a045c073",
+  "airplane_id": "60c0f8d6f9e9d24660791b2f",
+  "route_id": "60c5f39a8b1ba93390452779",
+  "status_id": "60c0cba0be52bd3818353855",
+  "__v": 0
+}]

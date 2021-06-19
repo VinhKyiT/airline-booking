@@ -1,0 +1,54 @@
+extends ../layouts/layout 
+block contents 
+    .row
+      .col-lg-12.grid-margin.stretch-card
+        .card
+          .card-body
+            h4.card-title Vé máy bay 
+            .d-flex.justify-content-end 
+                .form-group.d-flex.align-items-center.w-25 
+                    span.mr-3(for="") Chuyến bay 
+                    select.w-75.form-control.mr-3#select-route(name="" onchange="changeTicket()") 
+                        each route in routes
+                            if (routes.indexOf(route) === 0)
+                                option(value=route._id selected)= route.code 
+                            else   
+                                option(value=route._id)= route.code     
+                .form-group.d-flex.align-items-center.w-25 
+                    span.mr-3(for="") Hạng vé 
+                    select.w-75.form-control.mr-3#select-ticket-class(name="" onchange="changeTicket()") 
+                        each ticket_class in ticket_classes
+                            if (ticket_classes.indexOf(ticket_class) === 0)
+                                option(value=ticket_class._id selected)= ticket_class.name  
+                            else   
+                                option(value=ticket_class._id)= ticket_class.name   
+                .form-group.d-flex.align-items-center.w-25 
+                    span.mr-3(for="") Hạng vé 
+                    input.form-control#input-search(type="text" placeholder="Search by code" onKeyUp="search()")
+            .table-responsive
+                table.table.table-striped
+                    thead
+                        tr
+                            th Mã vé
+                            th Mã chuyến bay    
+                            th Hạng vé      
+                            th Giá vé
+                            th Tình trạng
+                    tbody#ticket
+                        //- each staff in staffs
+                        //-     tr
+                        //-         td= staff.username        
+                        //-         td= staff.name        
+                        //-         td= staff.email        
+                        //-         td= staff.date        
+                        //-         td= staff.phone           
+                        //-         td
+                        //-             a(href=`/staffs/edit/${staff._id}`)
+                        //-                 button.btn.btn-inverse-primary.btn-icon(type='button')
+                        //-                     i.mdi.mdi-pencil 
+                        //-         td               
+                        //-             a(href=`/staffs/delete/${staff._id}`)
+                        //-                 button.btn.btn-inverse-danger.btn-icon(type='button')
+                        //-                     i.mdi.mdi-delete
+block script 
+    script(src="/js/ticket.js") 

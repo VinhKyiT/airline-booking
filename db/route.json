@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801691e"
+  },
+  "depart_airport_id": "60c0f553bbbab253a045c073",
+  "arrival_airport_id": "60c0f5eabbbab253a045c082",
+  "depart_time": {
+    "$date": "2021-06-11T00:00:00Z"
+  },
+  "arrival_time": {
+    "$date": "2021-06-12T00:00:00Z"
+  },
+  "price": 1000000,
+  "code": "82FB5B",
+  "__v": 0,
+  "status_id": "60c0cba0be52bd3818353855"
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452779"
+  },
+  "depart_airport_id": "60c0f5eabbbab253a045c082",
+  "arrival_airport_id": "60c0f553bbbab253a045c073",
+  "depart_time": {
+    "$date": "2021-06-13T00:00:00Z"
+  },
+  "arrival_time": {
+    "$date": "2021-06-14T00:00:00Z"
+  },
+  "price": 1300000,
+  "code": "BAA25E",
+  "__v": 0,
+  "status_id": "60c0cba0be52bd3818353855"
+}]

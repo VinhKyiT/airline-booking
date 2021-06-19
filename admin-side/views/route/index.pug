@@ -1,0 +1,86 @@
+extends ../layouts/layout
+block contents
+    .row
+      .col-lg-12.grid-margin.stretch-card
+        .card
+          .card-body
+            h4.card-title Chuyến bay
+            button.btn.btn-inverse-success.btn-icon(type="button" data-toggle="modal" data-target="#createCategory")
+                i.mdi.mdi-plus
+            #createCategory.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                .modal-dialog(role='document')
+                    .modal-content
+                        .modal-header
+                            h5#exampleModalLabel.modal-title New Route
+                            button.close(type='button', data-dismiss='modal', aria-label='Close')
+                                span(aria-hidden='true') &times;
+                        .modal-body
+                            form(method="POST" action="/routes/create")
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Sân bay đi:
+                                    select.form-control(name="depart_airport_id")
+                                        each airport in airports
+                                            option(value=airport._id)= airport.name
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Sân bay đến:
+                                    select.form-control(name="arrival_airport_id")
+                                        each airport in airports
+                                            option(value=airport._id)= airport.name
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Máy bay:
+                                    select.form-control(name="airplane_id")
+                                        each airplane in airplanes
+                                            option(value=airplane._id)= airplane.name
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Ngày đi:
+                                    input#recipient-name.form-control(type='date' name="depart_time")
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Ngày đến:
+                                    input#recipient-name.form-control(type='date' name="arrival_time")
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Giá:
+                                    input#recipient-name.form-control(type='number' name="price")
+                                .modal-footer
+                                    button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+                                    button.btn.btn-primary(type='sumit') Submit
+            .table-responsive
+                table.table.table-striped
+                    thead
+                        tr
+                            th Mã chuyến bay
+                            th Sân bay đi
+                            th Sân bay đến
+                            th Ngày đi
+                            th Ngày đến
+                            th Trạng thái
+                            th
+                            th
+                    tbody
+                        each route in routes
+                            tr
+                                td= route.code.toUpperCase()
+                                td= route.depart_airport
+                                td= route.arrival_airport
+                                td= route.dTime
+                                td= route.aTime
+                                td
+                                    case (route.status_id.name)
+                                        when "normal"
+                                            span.badge.badge-primary Normal
+                                        when "checking"
+                                            span.badge.badge-warning Checking
+                                        when "Đang bay"
+                                            span.badge.badge-info Đang bay
+                                        when "Hoàn thành"
+                                            span.badge.badge-success Hoàn thành
+                                        when "Đã hủy"
+                                            span.badge.badge-danger Đã hủy
+                                td
+                                    a(href=`/routes/edit/${route._id}`)
+                                        button.btn.btn-inverse-primary.btn-icon(type='button')
+                                            i.mdi.mdi-pencil
+
+                                td
+                                    a(href=`/routes/delete/${route._id}`)
+                                        button.btn.btn-inverse-danger.btn-icon(type='button')
+                                            i.mdi.mdi-delete

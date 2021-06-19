@@ -1,0 +1,57 @@
+nav#sidebar.sidebar.sidebar-offcanvas
+  ul.nav#nav-container
+    li.nav-item
+      a.nav-link(href='/')
+        i.mdi.mdi-home.menu-icon
+        |               
+        span.menu-title Home
+    |           
+    li.nav-item
+      a.nav-link(data-toggle='collapse', href='#ui-basic', aria-expanded='false', aria-controls='ui-basic')
+        i.mdi.mdi-airplane.menu-icon
+        |               
+        span.menu-title Máy bay
+        |               
+        i.menu-arrow
+      |             
+      #ui-basic.collapse
+        ul.nav.flex-column.sub-menu
+          li.nav-item
+            a.nav-link(href='/airplanes') Máy bay          
+          li.nav-item
+            a.nav-link(href='airports') Sân bay
+          li.nav-item
+            a.nav-link(href='/airplane-company') Công ty máy bay         
+          li.nav-item
+            a.nav-link(href='/routes') Chuyến bay
+    li.nav-item#li-user
+      a.nav-link(data-toggle='collapse', href='#ui-basic-user', aria-expanded='false', aria-controls='ui-basic')
+        i.mdi.mdi-account.menu-icon
+        |               
+        span.menu-title Tài khoản
+        |               
+        i.menu-arrow
+      |             
+      #ui-basic-user.collapse
+        ul.nav.flex-column.sub-menu
+          li.nav-item
+            a.nav-link(href='/admins') Admin         
+          li.nav-item
+            a.nav-link(href='/staffs') Nhân viên
+          li.nav-item
+            a.nav-link(href='/customers') Khách hàng     
+    li.nav-item#li-role
+      a.nav-link(href='/roles')
+        i.mdi.mdi-account-key.menu-icon
+        |               
+        span.menu-title Phân quyền
+    li.nav-item
+      a.nav-link(href='/tickets')
+        i.mdi.mdi-ticket-confirmation.menu-icon
+        |               
+        span.menu-title Vé máy bay
+    li.nav-item
+      a.nav-link(href='/bills')
+        i.mdi.mdi-receipt.menu-icon
+        |               
+        span.menu-title Hóa đơn

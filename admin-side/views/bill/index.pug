@@ -1,0 +1,57 @@
+extends ../layouts/layout 
+block contents 
+    .row
+      .col-lg-12.grid-margin.stretch-card
+        .card
+          .card-body
+            h4.card-title Hóa đơn
+            .table-responsive
+                table.table.table-striped
+                    thead
+                        tr
+                            th Mã hóa đơn
+                            th Ngày tạo   
+                            th Email người đặt     
+                            th Tổng cộng
+                            th 
+                    tbody
+                        each bill in bills
+                            tr
+                                td= bill.code        
+                                td= bill.date_create        
+                                td= bill.customer_id.email        
+                                td= bill.total_payment.toLocaleString('vi', {style : 'currency', currency : 'VND'})          
+                                td
+                                    a(href=`/bills/edit/${bill._id}`)
+                                        button.btn.btn-inverse-primary.btn-icon(type='button')
+                                            i.mdi.mdi-pencil 
+    .row
+      .col-lg-12.grid-margin.stretch-card
+        .card
+          .card-body
+            h4.card-title Vé đã hủy
+            .table-responsive
+                table.table.table-striped
+                    thead
+                        tr
+                            th Ngày tạo   
+                            th Email người đặt     
+                            th Tổng cộng
+                            th 
+                            th 
+                    tbody
+                        each cancel in cancels
+                            tr  
+                                td= cancel.date_create        
+                                td= cancel.customer_id.email        
+                                td= cancel.ticket_id.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})          
+                                td
+                                    case (cancel.status)
+                                        when "Chưa xử lý"
+                                            span.badge.badge-danger Chưa xử lý
+                                        when "Đã xử lý"
+                                            span.badge.badge-success Đã xử lý
+                                td
+                                    a(href=`/bills/edit-cancel/${cancel._id}`)
+                                        button.btn.btn-inverse-primary.btn-icon(type='button')
+                                            i.mdi.mdi-pencil 

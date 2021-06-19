@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "60c0f8d6f9e9d24660791b2f"
+  },
+  "name": "Boeing 787",
+  "economy_seatNum": 211,
+  "premium_economy_seatNum": 35,
+  "business_seatNum": 28,
+  "airplane_company_id": "60c0f7118c9882404c8d4eae",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f8fbf9e9d24660791b30"
+  },
+  "name": "Airbus A350",
+  "economy_seatNum": 231,
+  "premium_economy_seatNum": 45,
+  "business_seatNum": 29,
+  "airplane_company_id": "60c0f7118c9882404c8d4eae",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f95af9e9d24660791b31"
+  },
+  "name": "Airbus A330",
+  "economy_seatNum": 200,
+  "premium_economy_seatNum": 49,
+  "business_seatNum": 20,
+  "airplane_company_id": "60c0f7118c9882404c8d4eae",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f985f9e9d24660791b32"
+  },
+  "name": "Airbus A321",
+  "economy_seatNum": 130,
+  "premium_economy_seatNum": 40,
+  "business_seatNum": 14,
+  "airplane_company_id": "60c0f7118c9882404c8d4eae",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f9d3f9e9d24660791b33"
+  },
+  "name": "ATR 72-500",
+  "economy_seatNum": 120,
+  "premium_economy_seatNum": 60,
+  "business_seatNum": 20,
+  "airplane_company_id": "60c0f71d8c9882404c8d4eaf",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0fa12f9e9d24660791b35"
+  },
+  "name": "A320 Neo",
+  "economy_seatNum": 100,
+  "premium_economy_seatNum": 60,
+  "business_seatNum": 20,
+  "airplane_company_id": "60c0f71d8c9882404c8d4eaf",
+  "__v": 0
+}]

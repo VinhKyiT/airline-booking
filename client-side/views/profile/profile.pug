@@ -1,0 +1,93 @@
+extends ./index
+block variable 
+    -var page = "profile";
+    -var title = "Thông tin cá nhân"
+block content 
+    form(method="POST" action="/profile")
+        .form-group.my-2
+            label.col-form-label Email đăng nhập:
+            .text.info_detail#text-email= currentAccount.email
+            input(type="text" value=currentAccount.email id="email" class="form-control info_edit form-info hidden" readonly="" name="email")
+            a#btn_edit(href="#" onclick="showInput()") 
+                i.fas.fa-edit Cập nhật 
+        .form-group.my-2
+            label.col-form-label Username:
+            .text.info_detail#text-username= currentAccount.username
+            input(type="text" value=currentAccount.username id="username" class="form-control info_edit form-info hidden" readonly="" name="username")
+        .form-group.my-2
+            label.col-form-label Họ và tên:
+            .text.info_detail#text-name= currentAccount.name
+            input(type="text" id="name" value=currentAccount.name class="form-control info_edit form-info hidden" name="name")
+        .form-group.my-2
+            label.col-form-label Số điện thoại:
+            .text.info_detail#text-phone= currentAccount.phone
+            input(type="text" id="phone" value=currentAccount.phone class="form-control info_edit form-info hidden" name="phone")
+        .form-group.my-2
+            label.col-form-label Số chứng minh nhân dân:
+            .text.info_detail#text-cmnd=currentAccount.cmnd 
+            input(type="text" id="cmnd" value=currentAccount.cmnd class="form-control info_edit form-info hidden" name="cmnd")
+        .form-group.my-2
+            -var gender= currentAccount.gender
+            label.col-form-label Giới tính:
+            .text.info_detail#text-gender= gender
+            .form-check.d-none#gender1
+                if (gender === "Nam")
+                    input#flexRadioDefault1.form-check-input(type='radio', name='gender' value="Nam", checked='')
+                else
+                    input#flexRadioDefault1.form-check-input(type='radio', name='gender' value="Nam")
+                label.form-check-label(for='flexRadioDefault1') Nam
+            .form-check.d-none#gender2
+                if (gender === "Nữ")
+                    input#flexRadioDefault2.form-check-input(type='radio', name='gender' value="Nữ" checked)
+                else
+                    input#flexRadioDefault1.form-check-input(type='radio', name='gender' value="Nữ")
+                label.form-check-label(for='flexRadioDefault2') Nữ
+        //- .form-group.d-none
+        //-     label.col-form-label Địa chỉ:
+        //-     .text.info_detail#text-address 11G Đường số 22 - Phường Bình Hưng Hòa A - Quận Bình Tân - Thành phố Hồ Chí Minh
+        //-     input(type="text" value="11G Đường số 22 - Phường Bình Hưng Hòa A - Quận Bình Tân - Thành phố Hồ Chí Minh" id="email" class="form-control info_edit form-info hidden")
+                                    //- .form-group
+                                    //-     label.col-form-label Tỉnh/Thành phố:
+                                    //-     select.form-control.form-info
+                                    //-         option(selected='') Open this select menu
+                                    //-         option(value='1') One
+                                    //-         option(value='2') Two
+                                    //-         option(value='3') Three
+                                    //- .form-group
+                                    //-     label.col-form-label Quận/Huyện:
+                                    //-     select.form-control.form-info
+                                    //-         option(selected='') Open this select menu
+                                    //-         option(value='1') One
+                                    //-         option(value='2') Two
+                                    //-         option(value='3') Three
+                                    //- .form-group
+                                    //-     label.col-form-label Phường/Xã:
+                                    //-     select.form-control.form-info
+                                    //-         option(selected='') Open this select menu
+                                    //-         option(value='1') One
+                                    //-         option(value='2') Two
+                                    //-         option(value='3') Three
+                                    //- .form-group
+                                    //-     label.col-form-label Số nhà/Đường:
+                                    //-     input(type="text" value="11G Đường số 22" class="form-control info_edit form-info")
+        .form-group.my-2
+            label.col-form-label Nghề nghiệp:
+            .text.info_detail#text-job=currentAccount.job 
+            input(type="text" id="job" value=currentAccount.job class="form-control info_edit form-info hidden" name="job")
+        .form-group.my-2
+            label.col-form-label Ngày sinh:
+            .text.info_detail#text-date_of_birth=currentAccount.date_of_birth ?  currentAccount.date : ''
+            input.w-25(type="date" id="date_of_birth" value=currentAccount.date_of_birth class="form-control info_edit form-info hidden" name="date_of_birth" disabled)
+            a#btn_edit_date.d-none.ms-4.d-flex.align-items-center.text-decoration-none(href="#" onclick="showDate()") 
+                i.fas.fa-edit#text-edit-date Cập nhật 
+        //- .form-group
+        //-     label.col-form-label Tình trạng hôn nhân:
+        //-     .text.info_detail#text-relationship 
+        //-     input(type="text" id="relationship" value="" class="form-control info_edit form-info hidden")
+        .form-group#group-btn.d-none.my-2
+            label.col-form-label 
+            button.btn.btn-primary(type="submit" style="margin-right: 10px;") Cập nhật
+            button.btn.btn-danger(type="cancel") Hủy 
+block script 
+    script(src="/js/account.js")
+    script(src="/js/current-user.js") 

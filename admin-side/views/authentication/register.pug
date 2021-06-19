@@ -1,0 +1,95 @@
+doctype html
+html(lang='en')
+  head
+    // Required meta tags
+    meta(charset='utf-8')
+    |   
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    |   
+    title Majestic Admin
+    // plugins:css
+    link(rel='stylesheet', href='/assets/admin/vendors/mdi/css/materialdesignicons.min.css')
+    |   
+    link(rel='stylesheet', href='/assets/admin/vendors/base/vendor.bundle.base.css')
+    // endinject
+    // plugin css for this page
+    // End plugin css for this page
+    // inject:css
+    link(rel='stylesheet', href='/assets/admin/css/style.css')
+    // endinject
+    link(rel='shortcut icon', href='/assets/admin/images/favicon.png')
+  body
+    .container-scroller
+      .container-fluid.page-body-wrapper.full-page-wrapper
+        .content-wrapper.d-flex.align-items-stretch.auth.auth-img-bg
+          .row.flex-grow
+            .col-lg-6.d-flex.align-items-center.justify-content-center
+              .auth-form-transparent.text-left.p-3
+                .brand-logo
+                  img(src='/assets/admin/images/logo.svg', alt='logo')
+                |               
+                h4 New here?
+                |               
+                h6.font-weight-light Join us today! It takes only few steps
+                |               
+                form.pt-3
+                  .form-group
+                    label Username
+                    |                   
+                    .input-group
+                      .input-group-prepend.bg-transparent
+                        span.input-group-text.bg-transparent.border-right-0
+                          i.mdi.mdi-account-outline.text-primary
+                      |                     
+                      input.form-control.form-control-lg.border-left-0(type='text', placeholder='Username')
+                  |                 
+                  .form-group
+                    label Email
+                    |                   
+                    .input-group
+                      .input-group-prepend.bg-transparent
+                        span.input-group-text.bg-transparent.border-right-0
+                          i.mdi.mdi-email-outline.text-primary
+                      |                     
+                      input.form-control.form-control-lg.border-left-0(type='email', placeholder='Email')
+                  |                 
+                  .form-group
+                    label Phone
+                    |                   
+                    .input-group
+                      .input-group-prepend.bg-transparent
+                        span.input-group-text.bg-transparent.border-right-0
+                          i.mdi.mdi-cellphone-android.text-primary
+                      |                     
+                      input.form-control.form-control-lg.border-left-0(type='tel', placeholder='Phone' name="phone")              
+                  .form-group
+                    label Password
+                    |                   
+                    .input-group
+                      .input-group-prepend.bg-transparent
+                        span.input-group-text.bg-transparent.border-right-0
+                          i.mdi.mdi-lock-outline.text-primary
+                      |                     
+                      input#exampleInputPassword.form-control.form-control-lg.border-left-0(type='password', placeholder='Password')
+                  |                 
+                  .mt-3
+                    a.btn.btn-block.btn-primary.btn-lg.font-weight-medium.auth-form-btn(href='../../index.html') SIGN UP
+                  |                 
+                  .text-center.mt-4.font-weight-light
+                    | Already have an account? 
+                    a.text-primary(href='/authentication/login') Login
+            |           
+            .col-lg-6.register-half-bg.d-flex.flex-row
+        // content-wrapper ends
+      // page-body-wrapper ends
+    // container-scroller
+    // plugins:js
+    script(src='/assets/admin/vendors/base/vendor.bundle.base.js')
+    // endinject
+    // inject:js
+    script(src='/assets/admin/js/off-canvas.js')
+    |   
+    script(src='/assets/admin/js/hoverable-collapse.js')
+    |   
+    script(src='/assets/admin/js/template.js')
+    // endinject

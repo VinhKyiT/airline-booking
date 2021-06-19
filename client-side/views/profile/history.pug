@@ -1,0 +1,39 @@
+extends ./index
+block variable 
+    -var page = "history";
+    -var title = "Lịch sử đặt vé"
+block content 
+    if (false)
+        h3.text-center Bạn chưa mua gì cả
+    else
+        form(method="GET" action="/profile/history")
+            .row.mb-5    
+                .col-lg-4
+                    label.col-form-label Từ ngày:
+                    input(type="date" id="" class="form-control info_edit form-info" name="from_date")
+                .col-lg-4
+                    label.col-form-label Đến ngày:
+                    input(type="date" id="" class="form-control info_edit form-info" name="to_date")
+                .col-lg-4.d-flex.justify-content-end.align-items-end
+                    button.btn.btn-danger(type="submit") Tìm kiếm
+        table.table.table-striped
+            tr 
+                th Ngày tạo
+                th Tên sản phẩm
+                th Tổng cộng
+                th
+            each bill in bills
+                tr 
+                    td= bill.date_create
+                    td 
+                        each bd in bill.bill_detail 
+                            -var index = bill.bill_detail.indexOf(bd) 
+                            -var length = bill.bill_detail.length - 1
+                            if (index === length)
+                                span= `${bd.ticket_id.code}`
+                            else
+                                span= `${bd.ticket_id.code}, `
+                    td= bill.total_payment.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+                    td.text-end
+                        a.btn.btn-primary.h-50(href="/profile/history/detail/"+bill._id) Xem chi tiết
+                

@@ -1,0 +1,82 @@
+header#impx-header
+  div
+    .impx-menu-wrapper.style2.hp2(data-uk-sticky='top: .impx-slide-container; animation: uk-animation-slide-top')
+      // Mobile Nav Start
+      #mobile-nav(data-uk-offcanvas='mode: push; overlay: true')
+        .uk-offcanvas-bar
+          ul.uk-nav.uk-nav-default
+            li.uk-parent.uk-active
+              a(href='index.html') Home
+            li.uk-parent.uk-active
+              a(href='index.html') Lịch sử đặt vé
+
+      | &#x9;&#x9;&#x9;&#x9;
+      a.mobile-nav(href='#mobile-nav', class='uk-hidden@xl uk-hidden@l uk-hidden@m', data-uk-toggle='target: #mobile-nav')
+        i.fa.fa-bars
+        | Menu
+      // Mobile Nav End
+      // Top Header
+      .impx-top-header.style2
+        .uk-container.uk-container-expand
+          .uk-grid
+            // header phone
+            div(class='uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s')
+              .impx-top-phone
+                p
+                  i.fa.fa-phone
+                  |  Phone : +84567890123
+            // header phone end
+            // header social media
+            div(class='uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s')
+              .impx-top-social
+                ul
+                  if (!checkLogin)
+                    li
+                      a(href='/authentication')
+                        i.fal.fa-user
+                        | Login
+                  else
+                    li
+                      a(href='/profile')
+                        i.fal.fa-address-card
+                        | Profile
+                    li
+                      a(href='/authentication/logout')
+                        i.fal.fa-user
+                        | Logout
+            // header social media end
+      // Top Header End
+      .uk-container.uk-container-expand
+        div(data-uk-grid='')
+          // Header Logo
+          .uk-width-auto
+            .impx-logo
+              a(href='/')
+                img(src='/images/logo.png', alt='Logo', width='80px', height='auto')
+          // Header Logo End
+          // Header Navigation
+          .uk-width-expand.uk-position-relative
+            nav.uk-navbar-container.uk-navbar-transparent(class='uk-visible@s uk-visible@m', data-uk-navbar='')
+              .uk-navbar-right.impx-navbar-right
+                ul.uk-navbar-nav.impx-nav.style2
+                  // Navigation Items
+                  li.uk-parent.uk-active
+                    a.uk-navbar-nav-subtitle(href='/')
+                      div
+                        | Home
+                        .uk-navbar-subtitle Welcome
+                  li.uk-parent.uk-active
+                    a.uk-navbar-nav-subtitle(href='/profile/history')
+                      div
+                        | Lịch sử
+                        .uk-navbar-subtitle Lịch sử đặt vé
+                  li.uk-parent.uk-active
+                    a.uk-navbar-nav-subtitle(href='/flights')
+                      div
+                        | Chuyến bay
+                        .uk-navbar-subtitle lịch chuyến bay
+                // Navigation Items End
+          // Header Navigation End
+          // Promo Ribbon
+          // Promo Ribbon End
+// HEADER END

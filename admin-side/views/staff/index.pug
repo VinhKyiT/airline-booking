@@ -1,0 +1,69 @@
+extends ../layouts/layout 
+block contents 
+    .row
+      .col-lg-12.grid-margin.stretch-card
+        .card
+          .card-body
+            h4.card-title NHân viên  
+            button.btn.btn-inverse-success.btn-icon(type="button" data-toggle="modal" data-target="#createCategory")
+                i.mdi.mdi-plus
+            #createCategory.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                .modal-dialog(role='document')
+                    .modal-content
+                        .modal-header
+                            h5#exampleModalLabel.modal-title New Staff
+                            button.close(type='button', data-dismiss='modal', aria-label='Close')
+                                span(aria-hidden='true') &times;
+                        .modal-body
+                            form(method="POST" action="/staffs/create")
+                                .form-group
+                                    label(for='exampleInputName1') Username
+                                    input#exampleInputName1.form-control(type='text', placeholder='Username' name="username")
+                                .form-group
+                                    label(for='exampleInputName1') Tên nhân viên
+                                    input#exampleInputName1.form-control(type='text', placeholder='Tên nhân viên' name="name")
+                                .form-group
+                                    label(for='exampleInputName1') Email
+                                    input#exampleInputName1.form-control(type='email', placeholder='Email' name="email")
+                                .form-group
+                                    label(for='exampleInputName1') Ngày sinh
+                                    .d-flex.align-items-center
+                                        input#input-date.form-control(type='date', placeholder='Ngày sinh' name="date_of_birth")
+                                .form-group
+                                    label(for='exampleInputName1') Số điện thoại
+                                    input#exampleInputName1.form-control(type='text', placeholder='Số điện thoại' name="phone")
+                                .form-group
+                                    label(for='exampleInputName1') Giới tính
+                                    input#exampleInputName1.form-control(type='text', placeholder='Giới tính' name="gender")
+                                .modal-footer
+                                    button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+                                    button.btn.btn-primary(type='sumit') Submit                     
+            .table-responsive
+                table.table.table-striped
+                    thead
+                        tr
+                            th Username
+                            th Tên nhân viên     
+                            th Email      
+                            th Ngày sinh
+                            th Số điện thoại
+                            th Giới tính
+                            th 
+                            th 
+                    tbody
+                        each staff in staffs
+                            tr
+                                td= staff.username        
+                                td= staff.name        
+                                td= staff.email        
+                                td= staff.date        
+                                td= staff.phone        
+                                td= staff.gender        
+                                td
+                                    a(href=`/staffs/edit/${staff._id}`)
+                                        button.btn.btn-inverse-primary.btn-icon(type='button')
+                                            i.mdi.mdi-pencil 
+                                td               
+                                    a(href=`/staffs/delete/${staff._id}`)
+                                        button.btn.btn-inverse-danger.btn-icon(type='button')
+                                            i.mdi.mdi-delete

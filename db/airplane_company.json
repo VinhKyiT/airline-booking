@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "60c0f7118c9882404c8d4eae"
+  },
+  "code": "VNA",
+  "name": "Vietnam Airlines",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f71d8c9882404c8d4eaf"
+  },
+  "code": "VJ",
+  "name": "Vietjet Air",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f7258c9882404c8d4eb0"
+  },
+  "code": "BL",
+  "name": "Jetstar Pacific Airlines",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f72e8c9882404c8d4eb1"
+  },
+  "code": "QH",
+  "name": "Bamboo Airways",
+  "__v": 0
+}]

@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "60c9bdafd35d471c908918f4"
+  },
+  "date": {
+    "$date": "2021-06-16T08:57:15.447Z"
+  },
+  "ticket_id": "60c5f39a8b1ba933904527a8",
+  "customer_id": "60c9bd0ed35d471c908918ef",
+  "__v": 0,
+  "status": "Đã xử lý"
+},{
+  "_id": {
+    "$oid": "60c9d0d86f4f493f9c3ddbcf"
+  },
+  "date": {
+    "$date": "2021-06-16T10:22:04.666Z"
+  },
+  "status": "Đã xử lý",
+  "ticket_id": "60c5f33b0ac91911b8016933",
+  "customer_id": "60c9bd0ed35d471c908918ef",
+  "__v": 0
+}]

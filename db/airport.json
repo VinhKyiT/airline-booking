@@ -1,0 +1,155 @@
+[{
+  "_id": {
+    "$oid": "60c0f553bbbab253a045c073"
+  },
+  "code": "HAN",
+  "name": "Sân bay Quốc tế Nội Bài",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f55dbbbab253a045c074"
+  },
+  "code": "HPH",
+  "name": "Sân bay quốc tế Cát Bi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f566bbbab253a045c075"
+  },
+  "code": "DIN",
+  "name": "Sân bay Điện Biên Phủ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f570bbbab253a045c076"
+  },
+  "code": "THD",
+  "name": "Sân bay Thọ Xuân",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f57abbbab253a045c077"
+  },
+  "code": "VII",
+  "name": "Sân bay quốc tế Vinh",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f585bbbab253a045c078"
+  },
+  "code": "VDH",
+  "name": "Sân bay Đồng Hới",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f590bbbab253a045c079"
+  },
+  "code": "HUI",
+  "name": "Sân bay quốc tế Phú Bài",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f59bbbbab253a045c07a"
+  },
+  "code": "DAD",
+  "name": "Sân bay quốc tế Đà Nẵng",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f5a4bbbab253a045c07b"
+  },
+  "code": "VCL",
+  "name": "Sân bay quốc tế Chu Lai",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f5adbbbab253a045c07c"
+  },
+  "code": "UIH",
+  "name": "Sân bay Phù Cát",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f5b9bbbab253a045c07d"
+  },
+  "code": "TBB",
+  "name": "Sân bay Tuy Hòa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f5c2bbbab253a045c07e"
+  },
+  "code": "CXR",
+  "name": "Sân bay quốc tế Cam Ranh",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f5ccbbbab253a045c07f"
+  },
+  "code": "BMV",
+  "name": "Sân bay Buôn Ma Thuột",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f5d7bbbab253a045c080"
+  },
+  "code": "DLI",
+  "name": "Sân bay Liên Khương",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f5e0bbbab253a045c081"
+  },
+  "code": "PXU",
+  "name": "Sân bay Pleiku",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f5eabbbab253a045c082"
+  },
+  "code": "SGN",
+  "name": "Sân bay quốc tế Tân Sơn Nhất",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f5f3bbbab253a045c083"
+  },
+  "code": "CAH",
+  "name": "Sân bay Cà Mau",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f5febbbab253a045c084"
+  },
+  "code": "VCS",
+  "name": "Sân bay Côn Đảo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f609bbbab253a045c085"
+  },
+  "code": "VCA",
+  "name": "Sân bay quốc tế Cần Thơ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f612bbbab253a045c086"
+  },
+  "code": "VKG",
+  "name": "Sân bay Rạch Giá",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f61bbbbab253a045c087"
+  },
+  "code": "PQC",
+  "name": "Sân bay quốc tế Phú Quốc",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c0f624bbbab253a045c088"
+  },
+  "code": "VDO",
+  "name": "Sân bay Quốc tế Vân Đồn",
+  "__v": 0
+}]

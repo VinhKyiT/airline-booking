@@ -1,0 +1,67 @@
+extends ./index
+block variable 
+    -var page = "history";
+    -var title = "Lịch sử đặt vé"
+block content 
+    table.table.table-striped
+        tr 
+            th Mã vé
+            th Số lượng
+            th Giá
+            th
+        each bd in bill_detail
+            tr 
+                td= bd.ticket_id.code
+                td 1
+                td= bd.ticket_id.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+                td
+                    button.btn.btn-primary(type='button', data-bs-toggle='modal', data-bs-target=`#modal-${bd.ticket_id._id}`) Hủy vé
+                    // Modal
+                    .modal.fade(tabindex='-1', aria-labelledby='exampleModalLabel', aria-hidden='true' id=`modal-${bd.ticket_id._id}`)
+                        .modal-dialog.modal-dialog-centered
+                            .modal-content
+                                .modal-header
+                                    h5#exampleModalLabel.modal-title Hủy vé
+                                    |         
+                                    button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+                                |       
+                                .modal-body Bạn có chắc muốn hủy vé này
+                                .modal-footer
+                                    form(action=`/profile/cancel-ticket/${bd.ticket_id._id}` method="POST") 
+                                        button.btn.btn-secondary(type='button', data-bs-dismiss='modal') Hủy
+                                        |         
+                                        button.btn.btn-primary(type='submit') Xác nhận
+    .row.order-info-bottom 
+        .col-lg-6
+            .order-info 
+                .order-header
+                    h4 Thông tin đặt vé
+                .order-footer
+                    p= "Mã đặt vé: " + bill.code
+                        strong
+                    p= "Ngày tạo: " + bill.date_create
+                        //- case orders.status 
+                        //-     when "Chờ xác nhận"
+                        //-         strong.text-primary= orders.status  
+                        //-     when "Đã xử lý"
+                        //-         strong.text-success= orders.status  
+                        //-     when "Đang giao hàng"
+                        //-         strong.text-info= orders.status  
+                        //-     when "Đã hủy"
+                        //-         strong.text-danger= orders.status  
+        .col-lg-6
+            .order-info 
+                .order-header
+                    h4 Thông tin thanh toán
+                .order-footer.payment-footer
+                    each bd in bill_detail
+                        span= bd.ticket_id.code
+                        strong.total-price= bd.ticket_id.price.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+                        br
+                    
+                    hr.style-1
+                    span Tổng tiền
+                    strong.total-price.text-danger= bill.total_payment.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+    hr
+    a.btn-back-history(href="/profile/history")
+        i.fal.fa-angle-double-left &nbsp; Quay lại lịch sử đặt vé

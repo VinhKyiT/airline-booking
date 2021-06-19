@@ -1,0 +1,119 @@
+// PRICING PLANS
+html
+  head
+  body
+    .uk-padding.uk-padding-remove-horizontal.impx-section-pricing
+      .uk-container
+        .uk-flex.uk-flex-center.uk-margin-medium-bottom.impx-margin-bottom-small
+          // Pricing Intro
+          .uk-text-center.hp-offer-intro(class='uk-width-2-3@xl uk-width-2-3@l uk-width-2-3@m uk-width-1-1@s')
+            h2.uk-margin-small-bottom Các hạng vé tham khảo
+            |
+            p.impx-text-large.uk-margin-remove-top.uk-margin-small-bottom
+              | Traveloke cung cấp 3 hạng vé với các ưu đãi vô cùng lớn
+          // Pricing Intro End
+        |
+        .uk-flex.uk-flex-center.uk-margin-bottom
+          .impx-pricing-list(class='uk-width-5-6@xl uk-width-5-6@l uk-width-5-6@m uk-width-1-1@s', data-uk-grid='')
+            ul.uk-grid-collapse.impx-promo-pricing-list(class='uk-child-width-1-3@xl uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-3@s', data-uk-grid='')
+              li.uk-position-relative
+                // Pricing Item #1
+                .impx-promo-pricing.uk-box-shadow-large.uk-light
+                  .uk-position-relative
+                    img(src='images/pricing-img-1.jpg', alt='')
+                    |
+                    .impx-overlay.light
+                  |
+                  .uk-position-relative.uk-padding.bg-color-gold
+                    h4.uk-heading-line.uk-margin-small-bottom
+                      span H&#x1EA1;ng ph&#x1ED5; th&ocirc;ng
+                    |
+                    -var eco = 500000
+                    span.uk-label.uk-label-success.impx-text-gold.uk-text-bold= 'Chỉ từ ' + eco.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+                    |
+                    ul.uk-list
+                      li
+                        i.fas.fa-loveseat
+                        | B&igrave;nh th&#x1B0;&#x1EDD;ng
+                      |
+                      li
+                        i.fad.fa-utensils-alt
+                        | Kh&ocirc;ng ph&#x1EE5;c v&#x1EE5; th&#x1EE9;c &abreve;n
+                      |
+                      li
+                        i.fad.fa-ticket
+                        | Kh&ocirc;ng th&#x1EC3; &dstrok;&#x1ED5;i v&eacute;
+                    |
+                    br
+                    |
+                    a.uk-button.impx-button.small.impx-button-outline.small-border(href='#')
+                      | View Detail
+                      i.fa.fa-arrow-right
+              // Pricing Item #1 End
+              li.uk-position-relative.uk-position-z-index
+                // Pricing Item #2
+                .impx-promo-pricing.uk-box-shadow-xlarge.uk-light.featured
+                  .uk-position-relative
+                    img(src='images/pricing-img-2.jpg', alt='')
+                    |
+                    .impx-overlay.light
+                  |
+                  .uk-position-relative.uk-padding.bg-color-aqua
+                    h3.uk-heading-line.uk-margin-small-bottom
+                      span H&#x1EA1;ng th&#x1B0;&#x1A1;ng gia
+                    |
+                    -var skyboss = 2500000
+                    span.uk-label.uk-label-success.impx-text-aqua.uk-text-bold= 'Chỉ từ ' + skyboss.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+                    |
+                    ul.uk-list.uk-list-large
+                      li
+                        i.fas.fa-loveseat
+                        | R&#x1ED9;ng h&#x1A1;n 1,5 l&#x1EA7;n b&igrave;nh th&#x1B0;&#x1EDD;ng
+                      |
+                      li
+                        i.fad.fa-utensils-alt
+                        | C&oacute; ph&#x1EE5;c v&#x1EE5; th&ecirc;m c&aacute;c lo&#x1EA1;i r&#x1B0;&#x1EE3;u
+                      |
+                      li
+                        i.fad.fa-ticket
+                        | C&oacute; th&#x1EC3; &dstrok;&#x1ED5;i v&eacute;
+                    |
+                    a.uk-button.impx-button.small.impx-button-outline.small-border(href='#')
+                      | View Detail
+                      i.fa.fa-arrow-right
+              // Pricing Item #2 End
+              li.uk-position-relative
+                // Pricing Item #3
+                .impx-promo-pricing.uk-box-shadow-large.uk-light
+                  .uk-position-relative
+                    img(src='images/pricing-img-4.jpg', alt='')
+                    |
+                    .impx-overlay.light
+                  |
+                  .uk-position-relative.uk-padding.bg-color-gold
+                    h4.uk-heading-line.uk-margin-small-bottom
+                      span H&#x1EA1;ng ph&#x1ED5; th&ocirc;ng &dstrok;&#x1EB7;c bi&#x1EC7;t
+                    |
+                    -var promo = 1000000
+                    span.uk-label.uk-label-success.impx-text-gold.uk-text-bold= 'Chỉ từ ' + promo.toLocaleString('vi', {style : 'currency', currency : 'VND'})
+                    |
+                    ul.uk-list
+                      li
+                        i.fas.fa-loveseat
+                        | B&igrave;nh th&#x1B0;&#x1EDD;ng
+                      |
+                      li
+                        i.fad.fa-utensils-alt
+                        | Ph&#x1EE5;c v&#x1EE5; nh&#x1EEF;ng m&oacute;n &abreve;n nh&#x1EB9;
+                      |
+                      li
+                        i.fad.fa-ticket
+                        | &Dstrok;&#x1ED5;i v&eacute; t&ugrave;y tr&#x1B0;&#x1EDD;ng h&#x1EE3;p
+                    |
+                    br
+                    |
+                    a.uk-button.impx-button.small.impx-button-outline.small-border(href='#')
+                      | View Detail
+                      i.fa.fa-arrow-right
+              // Pricing Item #3 End
+    // PRICING PLANS END

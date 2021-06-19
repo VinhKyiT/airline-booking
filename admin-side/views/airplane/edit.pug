@@ -1,0 +1,30 @@
+extends ../layouts/layout
+block contents 
+    .col-12.grid-margin.stretch-card
+      .card
+        .card-body
+          h4.card-title= `Edit ${airplane.name}`
+          form.forms-sample(method="POST", action=`/airplanes/edit/${airplane._id}`)
+            .form-group
+              label.col-form-label(for='recipient-name') Tên sân bay:
+              input#recipient-name.form-control(type='text' name="name" value=airplane.name placeholder="Tên sân bay")
+            .form-group
+              label.col-form-label(for='economy_seatNum') Số chỗ ngồi phổ thông:
+              input#economy_seatNum.form-control(type='number' name="economy_seatNum" value=airplane.economy_seatNum placeholder="Số chỗ ngồi phổ thông")
+            .form-group
+              label.col-form-label(for='economy_seatNum') Số chỗ ngồi phổ thông đặc biệt:
+              input#economy_seatNum.form-control(type='number' name="economy_seatNum" value=airplane.premium_economy_seatNum placeholder="Số chỗ ngồi phổ thông")
+            .form-group
+              label.col-form-label(for='business_seatNum') Số chỗ ngồi thương gia:
+              input#business_seatNum.form-control(type='number' name="business_seatNum" value=airplane.business_seatNum placeholder="Số chỗ ngồi thương gia")
+            .form-group
+              label.col-form-label(for='business_seatNum') Tên công ty máy bay:
+              select.form-control(name="airplane_company_id")
+                  each company in airplane_company
+                    if (company._id.equals(airplane.airplane_company_id))
+                      option(value=company._id selected)= company.name
+                    else
+                      option(value=company._id)= company.name
+            
+            button(type="submit" class="btn btn-primary mr-2") Submit
+            button(class="btn btn-light") Cancel          

@@ -1,0 +1,5481 @@
+[{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016920"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO00",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016921"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO01",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016922"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO02",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016923"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO03",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016924"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO04",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016925"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO05",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016926"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO06",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016927"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO07",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016928"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO08",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016929"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO09",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801692a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO10",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801692b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO11",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801692c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO12",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801692d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO13",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801692e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO14",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801692f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO15",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016930"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO16",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016931"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO17",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016932"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO18",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016933"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO19",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016934"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO20",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016935"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO21",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016936"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO22",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016937"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO23",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016938"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO24",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016939"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO25",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801693a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO26",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801693b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO27",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801693c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO28",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801693d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO29",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801693e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO30",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801693f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO31",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016940"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO32",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016941"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO33",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016942"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO34",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016943"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO35",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016944"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO36",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016945"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO37",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016946"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO38",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016947"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO39",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016948"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO40",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016949"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO41",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801694a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO42",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801694b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO43",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801694c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO44",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801694d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO45",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801694e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO46",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801694f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO47",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016950"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO48",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016951"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO49",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016952"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO50",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016953"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO51",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016954"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO52",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016955"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO53",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016956"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO54",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016957"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO55",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016958"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO56",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016959"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO57",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801695a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO58",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801695b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO59",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801695c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO60",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801695d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO61",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801695e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO62",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801695f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO63",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016960"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO64",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016961"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO65",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016962"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO66",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016963"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO67",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016964"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO68",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016965"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO69",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016966"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO70",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016967"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO71",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016968"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO72",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016969"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO73",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801696a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO74",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801696b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO75",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801696c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO76",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801696d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO77",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801696e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO78",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801696f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO79",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016970"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO80",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016971"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO81",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016972"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO82",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016973"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO83",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016974"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO84",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016975"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO85",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016976"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO86",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016977"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO87",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016978"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO88",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016979"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO89",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801697a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO90",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801697b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO91",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801697c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO92",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801697d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO93",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801697e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO94",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801697f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO95",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016980"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO96",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016981"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO97",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016982"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO98",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016983"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO99",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016984"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO100",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016985"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO101",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016986"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO102",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016987"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO103",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016988"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO104",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016989"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO105",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801698a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO106",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801698b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO107",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801698c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO108",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801698d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO109",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801698e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO110",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801698f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO111",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016990"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO112",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016991"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO113",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016992"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO114",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016993"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO115",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016994"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO116",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016995"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO117",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016996"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO118",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016997"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO119",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016998"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO120",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016999"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO121",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801699a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO122",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801699b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO123",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801699c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO124",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801699d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO125",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801699e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO126",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b801699f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO127",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169a0"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO128",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169a1"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO129",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169a2"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO130",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169a3"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO131",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169a4"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO132",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169a5"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO133",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169a6"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO134",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169a7"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO135",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169a8"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO136",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169a9"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO137",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169aa"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO138",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ab"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO139",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ac"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO140",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ad"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO141",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ae"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO142",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169af"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO143",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169b0"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO144",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169b1"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO145",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169b2"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO146",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169b3"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO147",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169b4"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO148",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169b5"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO149",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169b6"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO150",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169b7"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO151",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169b8"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO152",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169b9"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO153",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ba"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO154",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169bb"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO155",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169bc"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO156",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169bd"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO157",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169be"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO158",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169bf"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO159",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169c0"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO160",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169c1"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO161",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169c2"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO162",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169c3"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO163",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169c4"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO164",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169c5"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO165",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169c6"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO166",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169c7"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO167",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169c8"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO168",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169c9"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO169",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ca"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO170",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169cb"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO171",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169cc"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO172",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169cd"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO173",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ce"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO174",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169cf"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO175",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169d0"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO176",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169d1"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO177",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169d2"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO178",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169d3"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO179",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169d4"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO180",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169d5"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO181",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169d6"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO182",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169d7"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO183",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169d8"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO184",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169d9"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO185",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169da"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO186",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169db"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO187",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169dc"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO188",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169dd"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO189",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169de"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO190",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169df"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO191",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169e0"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO192",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169e1"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO193",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169e2"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO194",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169e3"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO195",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169e4"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO196",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169e5"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO197",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169e6"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO198",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169e7"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO199",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169e8"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO200",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169e9"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO201",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ea"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO202",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169eb"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO203",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ec"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO204",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ed"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO205",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ee"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO206",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ef"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO207",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169f0"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO208",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169f1"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO209",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169f2"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1000000,
+  "code": "ECO210",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169f3"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE00",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169f4"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE01",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169f5"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE02",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169f6"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE03",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169f7"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE04",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169f8"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE05",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169f9"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE06",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169fa"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE07",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169fb"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE08",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169fc"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE09",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169fd"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE10",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169fe"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE11",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b80169ff"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE12",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a00"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE13",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a01"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE14",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a02"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE15",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a03"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE16",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a04"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE17",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a05"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE18",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a06"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE19",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a07"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE20",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a08"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE21",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a09"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE22",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a0a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE23",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a0b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE24",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a0c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE25",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a0d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE26",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a0e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE27",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a0f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE28",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a10"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE29",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a11"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE30",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a12"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE31",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a13"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE32",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a14"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE33",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a15"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1200000,
+  "code": "PRE34",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a16"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS00",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a17"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS01",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a18"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS02",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a19"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS03",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a1a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS04",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a1b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS05",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a1c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS06",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a1d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS07",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a1e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS08",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a1f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS09",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a20"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS10",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a21"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS11",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a22"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS12",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a23"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS13",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a24"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS14",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a25"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS15",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a26"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS16",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a27"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS17",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a28"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS18",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a29"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS19",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a2a"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS20",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a2b"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS21",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a2c"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS22",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a2d"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS23",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a2e"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS24",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a2f"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS25",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a30"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS26",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f33b0ac91911b8016a31"
+  },
+  "route_id": "60c5f33b0ac91911b801691e",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 1600000,
+  "code": "BUS27",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045277b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO00",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045277c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO01",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045277d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO02",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045277e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO03",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045277f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO04",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452780"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO05",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452781"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO06",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452782"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO07",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452783"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO08",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452784"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO09",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452785"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO10",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452786"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO11",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452787"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO12",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452788"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO13",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452789"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO14",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045278a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO15",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045278b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO16",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045278c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO17",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045278d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO18",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045278e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO19",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045278f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO20",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452790"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO21",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452791"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO22",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452792"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO23",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452793"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO24",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452794"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO25",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452795"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO26",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452796"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO27",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452797"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO28",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452798"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO29",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452799"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO30",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045279a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO31",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045279b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO32",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045279c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO33",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045279d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO34",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045279e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO35",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045279f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO36",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527a0"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO37",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527a1"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO38",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527a2"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO39",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527a3"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO40",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527a4"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO41",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527a5"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO42",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527a6"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO43",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527a7"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO44",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527a8"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO45",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527a9"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO46",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527aa"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO47",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ab"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO48",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ac"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO49",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ad"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO50",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ae"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO51",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527af"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO52",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527b0"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO53",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527b1"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO54",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527b2"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO55",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527b3"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO56",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527b4"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO57",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527b5"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO58",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527b6"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO59",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527b7"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO60",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527b8"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO61",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527b9"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO62",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ba"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO63",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527bb"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO64",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527bc"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO65",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527bd"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO66",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527be"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO67",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527bf"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO68",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527c0"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO69",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527c1"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO70",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527c2"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO71",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527c3"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO72",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527c4"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO73",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527c5"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO74",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527c6"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO75",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527c7"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO76",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527c8"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO77",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527c9"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO78",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ca"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO79",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527cb"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO80",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527cc"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO81",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527cd"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO82",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ce"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO83",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527cf"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO84",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527d0"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO85",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527d1"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO86",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527d2"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO87",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527d3"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO88",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527d4"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO89",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527d5"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO90",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527d6"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO91",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527d7"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO92",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527d8"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO93",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527d9"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO94",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527da"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO95",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527db"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO96",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527dc"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO97",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527dd"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO98",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527de"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO99",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527df"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO100",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527e0"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO101",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527e1"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO102",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527e2"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO103",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527e3"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO104",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527e4"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO105",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527e5"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO106",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527e6"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO107",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527e7"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO108",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527e8"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO109",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527e9"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO110",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ea"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO111",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527eb"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO112",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ec"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO113",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ed"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO114",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ee"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO115",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ef"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO116",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527f0"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO117",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527f1"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO118",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527f2"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO119",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527f3"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO120",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527f4"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO121",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527f5"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO122",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527f6"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO123",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527f7"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO124",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527f8"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO125",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527f9"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO126",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527fa"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO127",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527fb"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO128",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527fc"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO129",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527fd"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO130",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527fe"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO131",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba933904527ff"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO132",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452800"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO133",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452801"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO134",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452802"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO135",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452803"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO136",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452804"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO137",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452805"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO138",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452806"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO139",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452807"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO140",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452808"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO141",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452809"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO142",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045280a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO143",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045280b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO144",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045280c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO145",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045280d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO146",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045280e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO147",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045280f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO148",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452810"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO149",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452811"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO150",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452812"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO151",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452813"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO152",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452814"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO153",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452815"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO154",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452816"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO155",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452817"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO156",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452818"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO157",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452819"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO158",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045281a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO159",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045281b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO160",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045281c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO161",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045281d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO162",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045281e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO163",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045281f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO164",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452820"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO165",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452821"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO166",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452822"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO167",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452823"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO168",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452824"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO169",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452825"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO170",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452826"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO171",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452827"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO172",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452828"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO173",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452829"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO174",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045282a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO175",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045282b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO176",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045282c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO177",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045282d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO178",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045282e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO179",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045282f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO180",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452830"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO181",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452831"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO182",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452832"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO183",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452833"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO184",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452834"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO185",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452835"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO186",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452836"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO187",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452837"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO188",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452838"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO189",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452839"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO190",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045283a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO191",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045283b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO192",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045283c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO193",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045283d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO194",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045283e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO195",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045283f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO196",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452840"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO197",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452841"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO198",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452842"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO199",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452843"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO200",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452844"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO201",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452845"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO202",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452846"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO203",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452847"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO204",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452848"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO205",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452849"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO206",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045284a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO207",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045284b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO208",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045284c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO209",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045284d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66558327d22e807e514",
+  "price": 1300000,
+  "code": "ECO210",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045284e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE00",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045284f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE01",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452850"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE02",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452851"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE03",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452852"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE04",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452853"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE05",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452854"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE06",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452855"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE07",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452856"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE08",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452857"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE09",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452858"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE10",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452859"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE11",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045285a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE12",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045285b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE13",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045285c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE14",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045285d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE15",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045285e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE16",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045285f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE17",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452860"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE18",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452861"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE19",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452862"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE20",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452863"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE21",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452864"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE22",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452865"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE23",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452866"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE24",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452867"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE25",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452868"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE26",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452869"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE27",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045286a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE28",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045286b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE29",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045286c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE30",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045286d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE31",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045286e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE32",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045286f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE33",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452870"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a66d58327d22e807e515",
+  "price": 1560000,
+  "code": "PRE34",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452871"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS00",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452872"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS01",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452873"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS02",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452874"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS03",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452875"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS04",
+  "status": "Đã đặt",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452876"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS05",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452877"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS06",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452878"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS07",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452879"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS08",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045287a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS09",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045287b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS10",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045287c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS11",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045287d"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS12",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045287e"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS13",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045287f"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS14",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452880"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS15",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452881"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS16",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452882"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS17",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452883"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS18",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452884"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS19",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452885"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS20",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452886"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS21",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452887"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS22",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452888"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS23",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba93390452889"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS24",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045288a"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS25",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045288b"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS26",
+  "status": "Vẫn còn",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5f39a8b1ba9339045288c"
+  },
+  "route_id": "60c5f39a8b1ba93390452779",
+  "ticket_class_id": "60c1a67858327d22e807e516",
+  "price": 2080000,
+  "code": "BUS27",
+  "status": "Vẫn còn",
+  "__v": 0
+}]

@@ -1,0 +1,99 @@
+extends ../layouts/layout
+block contents 
+    block variable 
+    .container 
+        .container
+            .container
+                .container
+                    .container
+                        .row.row-header
+                            .col-lg-12.a-header
+                                .account-header
+                                .account-bottom
+                                    .container
+                                        .row 
+                                            .col-lg-3.border-right
+                                                span Username: 
+                                                    strong#strong-username
+                                            .col-lg-3.border-right
+                                                span Email: 
+                                                    strong#strong-email
+                                            .col-lg-3.border-right
+                                                span Ngày đăng kí: 
+                                                    strong#strong-date
+                                            .col-lg-3.border-right
+                                                span Đã tích lũy: 
+                                                    strong#strong-totalValue
+                                .avatar
+                        .row.row-bottom
+                            .col-lg-3.bottom-sidebar
+                                a.side-link(href="/profile")
+                                    if (page === "profile")
+                                        .side-item.active
+                                            .row 
+                                                .col-lg-2.icon-bottom-side
+                                                    i(class="fas fa-info-circle icon-info")
+                                                .col-lg-10
+                                                    .side-text
+                                                        strong Thông tin cá nhân
+                                                        span Quản lý thông tin cá nhân
+                                    else 
+                                        .side-item
+                                            .row 
+                                                .col-lg-2.icon-bottom-side
+                                                    i(class="fas fa-info-circle icon-info")
+                                                .col-lg-10
+                                                    .side-text
+                                                        strong Thông tin cá nhân
+                                                        span Quản lý thông tin cá nhân
+                                
+                                a.side-link(href="/profile/history")
+                                    if (page === "history")
+                                        .side-item.active
+                                            .row
+                                                .col-lg-2.icon-bottom-side 
+                                                    i(class="fas fa-shopping-cart icon-cart")
+                                                .col-lg-10 
+                                                    .side-text
+                                                        strong Lịch sử mua hàng
+                                                        span Thông tin sản phẩm đã mua
+                                    else
+                                        .side-item
+                                            .row
+                                                .col-lg-2.icon-bottom-side 
+                                                    i(class="fas fa-shopping-cart icon-cart")
+                                                .col-lg-10 
+                                                    .side-text
+                                                        strong Lịch sử đặt vé
+                                                        span Thông tin vé đã đặt
+                                
+                                a.side-link(href="/profile/change-password")
+                                    if (page === "password")
+                                        .side-item.active
+                                            .row
+                                                .col-lg-2.icon-bottom-side 
+                                                    i(class="fas fa-key icon-key")
+                                                .col-lg-10 
+                                                    .side-text
+                                                        strong Thay đổi mật khẩu
+                                                        span Cập nhật mật khẩu mới
+                                    else
+                                        .side-item
+                                            .row
+                                                .col-lg-2.icon-bottom-side 
+                                                    i(class="fas fa-key icon-key")
+                                                .col-lg-10 
+                                                    .side-text
+                                                        strong Thay đổi mật khẩu
+                                                        span Cập nhật mật khẩu mới
+                            .col-lg-9.bottom-right-side
+                                h3.title.text-center.my-3= title
+                                hr
+                                block content
+block script 
+    script(src="/js/current-user.js") 
+    
+                                
+                                
+                                        
+                            

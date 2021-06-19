@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "60c1a66558327d22e807e514"
+  },
+  "name": "Hạng phổ thông",
+  "multiply": 1
+},{
+  "_id": {
+    "$oid": "60c1a66d58327d22e807e515"
+  },
+  "name": "Hạng phổ thông đặc biệt",
+  "multiply": 1.2
+},{
+  "_id": {
+    "$oid": "60c1a67858327d22e807e516"
+  },
+  "name": "Hạng thương gia",
+  "multiply": 1.6
+}]

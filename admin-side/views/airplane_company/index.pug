@@ -1,0 +1,50 @@
+extends ../layouts/layout 
+block contents 
+    .row
+      .col-lg-12.grid-margin.stretch-card
+        .card
+          .card-body
+            h4.card-title Hãng hàng không  
+            button.btn.btn-inverse-success.btn-icon(type="button" data-toggle="modal" data-target="#createCategory")
+                i.mdi.mdi-plus
+            #createCategory.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                .modal-dialog(role='document')
+                    .modal-content
+                        .modal-header
+                            h5#exampleModalLabel.modal-title New message
+                            button.close(type='button', data-dismiss='modal', aria-label='Close')
+                                span(aria-hidden='true') &times;
+                        .modal-body
+                            form(method="POST" action="/airplane-company/create")
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Mã hãng hàng không:
+                                    input#recipient-name.form-control(type='text' name="code")
+                                .form-group
+                                    label.col-form-label(for='recipient-name') Tên hãng hàng không:
+                                    input#recipient-name.form-control(type='text' name="name")
+                                .modal-footer
+                                    button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+                                    button.btn.btn-primary(type='sumit') Submit                          
+            .table-responsive
+                table.table.table-striped
+                    thead
+                        tr
+                            th Mã hãng hàng không                 
+                            th Tên hãng hàng không                 
+                            th Số máy bay
+                            th
+                            th       
+                    tbody
+                        each company in airplane_company
+                            tr
+                                td= company.code                 
+                                td= company.name                 
+                                td= company.plane
+                                td
+                                    a(href=`/airplane-company/edit/${company._id}`)
+                                        button.btn.btn-inverse-primary.btn-icon(type='button')
+                                            i.mdi.mdi-pencil 
+                                td               
+                                    a(href=`/airplane-company/delete/${company._id}`)
+                                        button.btn.btn-inverse-danger.btn-icon(type='button')
+                                            i.mdi.mdi-delete
